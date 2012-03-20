@@ -1,80 +1,3 @@
-mkdir join
-cd join
-vim a
-vim b
-join a b
-which join
-man join
-join --check-order a b
-vim a
-vim b
-join a b
-join a b
-echo $?
-join a b
-vim c
-sort c
-sort -n c
-join a b
-join -n a b
-~/code/coreutils/src/join a b
-~/code/coreutils/src/join -n a b
-c
-man 3 strtold
-man 3 strtold
-man memcasecmp
-man 3 memcmp
-man sort
-man sort
-~/code/coreutils/src/join a b
-~/code/coreutils/src/join -n a b
-~/code/coreutils/src/join -n a b
-pacaur -Ss vc-dwim
-~/code/coreutils/src/join --help
-man join
-man join
-man join
-man sort
-pacaur -Ss vc-dwim
-c
-cd ~/code/coreutils
-vim HACKING
-git br
-vim src/join.c
-cp /tmp/join.c src/
-cp /tmp/join tests/misc/join
-vim src/join.c
-vim tests/misc/join
-git st
-git add src/join.c
-git add tests/misc/join
-src/join --help
-c
-make
-src/join --help
-c
-vim HACKING
-git br
-vim HACKING
-ps -e G vim
-kill 31582
-kill 3598
-vim HACKING
-git format-patch --stdout -1 >join.numeric.sort.diff
-vim join.numeric.sort.diff
-vim HACKING
-vim HACKING
-exit
-cd code/coreutils
-git br
-git rebase master
-git co master
-git br
-git pull
-git co numsort
-c
-vim HACKING
-make
 cd tests
 make check TESTS=misc/join
 ..
@@ -2998,4 +2921,81 @@ echo $DISPLAY
 screen
 c
 screen -x pts-13.ajfrank
+exit
+cd code/dotfiles
+ls
+./install.sh
+./install.sh
+./install.sh
+./install.sh
+man ls
+ls -a
+ls -A
+./install.sh
+c
+cd ~
+c
+ls
+ls -a .z*
+ls -ad .z*
+vim .zshrc
+ls -ald .zsh*
+vim .zshrc
+rm .zsh .zshrc
+c
+man ln
+ls -ald .zsh*
+vim .zsh
+vim .zshrc
+man ln
+man ln
+ls -ald .zsh*
+rm .zsh .zshrc
+ls -ald .zsh*
+vim .zshrc
+vim .zsh/alias
+c
+ls
+man ls
+man ln
+ls .vim
+\ls .vim
+which ls
+man ls
+\ls
+\ls .vim
+\ls -h .vim
+\ls -hF .vim
+\ls -F .vim
+man ls
+\ls -F .vim
+\ls -FH .vim
+\ls -FHh .vim
+\ls -FHhd .vim
+\ls -Fhd .vim
+\ls -FHd .vim
+man ls
+c
+ls .vim
+\ls .vim
+ls .vim/bundle
+ls
+c
+ls
+mkdir backup
+mv ~/.vim/bundle/* backup
+mv backup/vundle ~/.vim/bundle
+ls ~/.vim/bundle
+vim
+vim ~/.vimrc
+vim ~/.vimrc
+ls .vim/bundle
+cd .vim
+l
+cd bundle
+l
+ls vundle
+vim vundle/README.md
+c
+ls
 exit

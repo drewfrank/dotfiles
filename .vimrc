@@ -1,5 +1,24 @@
 set nocompatible
-call pathogen#runtime_append_all_bundles()
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+" List bundles to install below. Format:
+"   Github: 'user/reponame'
+"   Vimscripts: 'scriptname'
+"   Git repo: 'git://blah'
+Bundle 'AutoTag'
+Bundle 'mileszs/ack.vim'
+Bundle 'noahfrederick/Hemisu'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'tpope/vim-repeat'
+Bundle 'ervandew/supertab'
+Bundle 'tpope/vim-surround'
+Bundle 'taglist.vim'
+Bundle 'git://vim-latex.git.sourceforge.net/gitroot/vim-latex/vim-latex'
+
+filetype plugin indent on " required
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
@@ -36,9 +55,6 @@ if !exists(":DiffOrig")
   command DiffOrig vert new | set bt=nofile | r # | 0d_ | diffthis
           \ | wincmd p | diffthis
 endif
-
-filetype off
-filetype plugin indent on
 
 " vim behavior
 set hidden
@@ -110,8 +126,6 @@ let Tlist_Exit_OnlyWindow=1
 let Tlist_WinWidth=40
 autocmd FileType taglist setlocal nonumber statusline=\ 
 let tlist_tex_settings = 'latex;l:labels;s:sections;t:subsections;u:subsubsections'
-
-source ~/.vim/autotag.vim
 
 function Stamp(...)
     normal! `["_d`]"_xhp

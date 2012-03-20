@@ -1,0 +1,103 @@
+xft.dpi:    96
+xft.hintstyle: hintslight
+xft.autohinting: 1
+xft.antialias: 1
+xft.rgba: rgb
+Xcursor*theme:    Vanilla-DMZ-AA
+Xcursor.size: 22
+
+! urxvt.font: -*-terminus-*-*-*-*-*-*-*-*-*-*-*-*
+urxvt.font: xft:inconsolata:size=8:antialias=true:hinting=true
+! urxvt.font: xft:deja vu sans mono:size=8:antialias=true:hinting=true
+! urxvt.font: -*-montecarlo-medium-*-*-*-*-*-*-*-*-*-*-*
+! urxvt.boldFont: -*-montecarlo-bold-*-*-*-*-*-*-*-*-*-*-*
+
+urxvt*geometry:         80x25
+urxvt*saveLines:        8192 
+urxvt*scrollBar:        false
+urxvt*scrollstyle:      plain ! options: rxvt, plain, next or xterm. plain
+urxvt*scrollBar_right:  true
+urxvt*background:       #222222
+urxvt*borderColor:      #222222
+urxvt*loginShell:       true
+! urxvt.borderLess:      true
+urxvt*transparent:	    false 
+urxvt*cutchars:         "()*,<>[]{}|'
+urxvt*print-pipe:       cat > $(echo urxvt.dump.`date +'%Y%M%d%H%m%S'`)
+urxvt*secondaryScroll:  true
+urxvt*mapAlert:         true
+urxvt*utmpInhibit:      true
+urxvt*perl-lib:         /usr/lib/urxvt/perl/
+urxvt*perl-ext-common:  default,matcher
+urxvt*urlLauncher:      firefox
+urxvt*matcher.button:   1
+urxvt*matcher.pattern.1:\\bwww\\.[\\w-]+\\.[\\w./?&@#-]*[\\w/-]
+urxvt.urgentOnBell:     true
+!urxvt*visualBell:        true
+
+! ! Zenburn
+! *background:  #3f3f3f
+! *foreground:  #dcdccc
+! ! black + red
+! !*color0:     #3f3f3f
+! *color0:      #1E2320
+! *color1:      #705050
+! ! green + yellow
+! *color2:      #60b48a
+! *color3:      #dfaf8f
+! ! blue + purple
+! *color4:      #506070
+! *color5:      #dc8cc3
+! ! cyan + white
+! *color6:      #8cd0d3
+! *color7:      #dcdccc
+! ! bright-black + bright-red
+! *color8:      #709080
+! *color9:      #dca3a3
+! ! bright-green + bright-yellow
+! *color10:     #c3bf9f
+! *color11:     #f0dfaf
+! ! bright-blue + bright-purple
+! *color12:     #94bff3
+! *color13:     #ec93d3
+! ! bright-cyan + bright-white
+! *color14:     #93e0e3
+! *color15:     #ffffff
+
+! Colorful and sharp
+*background:  #222222
+*foreground:  #EBEBFF
+! black + red
+*color0:      #000000
+*color1:      #e01010
+! green + yellow
+*color2:      #00AA00
+*color3:      #f0f000
+! blue + purple
+*color4:      #204a87
+*color5:      #A020F0
+! cyan + white
+*color6:      #5B5BC7
+*color7:      #fefefe
+! bright-black + bright-red
+*color8:      #6a6a6a
+*color9:      #FF5555
+! bright-green + bright-yellow
+*color10:     #90EE90
+*color11:     #f0f02f
+! bright-blue + bright-purple
+*color12:     #7B9Bf7
+*color13:     #e628ba
+! bright-cyan + bright-white
+*color14:     #5DcDFB
+*color15:     #ffffff
+
+cursorColor:    #ffcc00
+urxvt*cursorBlink: false 
+
+xpdf*enableFreetype:    yes
+xpdf*antialias:    yes
+xpdf*foreground:    black
+xpdf*background:    white
+xpdf*urlCommand:    firefox3 %s
+xpdf*viKeys:        on

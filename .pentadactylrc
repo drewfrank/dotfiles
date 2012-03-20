@@ -1,0 +1,14 @@
+" 1.2 (created: 2008/08/16 18:51:52)
+" Mappings
+noremap j 3j
+noremap k 3k
+
+" Options
+set mapleader=","
+set complete=l
+set editor=vim
+set titlestring='Mozilla Firefox'
+set urlseparator=
+set hlfind
+
+map <Leader><space> :set nohlfind<CR>

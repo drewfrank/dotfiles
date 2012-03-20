@@ -1,0 +1,68 @@
+#!/bin/zsh
+#
+# change default behaviors for the basics
+
+. ~/.zsh/vars
+
+# pacman
+alias pacup='sudo pacman -Syu'
+alias pacs='pacman -Ss'
+alias pacr='sudo pacman -Rs'
+alias pac="sudo pacman -S"
+
+alias yaoup='yaourt -Syu --aur'
+alias yaos='yaourt -Ss'
+alias yao='yaourt -S'
+alias yaor='yaourt -Rsn'
+
+# function call
+alias ex=extract_archive
+
+# basics
+alias c="clear"
+alias l="ls -l"
+alias ll='ls -ahl --color | less; echo "\e[1;32m --[\e[1;34m Dirs:\e[1;36m `ls -al | egrep \"^drw\" | wc -l` \e[1;32m|\e[1;35m Files: \e[1;31m`ls -al | egrep -v \"^drw\" | grep -v total | wc -l` \e[1;32m]--"'
+alias v="vim"
+alias vi=vim
+alias wh="when ci --past=0 --future=3"
+alias cdc="cd; clear"
+alias s="screen"
+
+# navigation/filesystem commands
+alias cp="cp -v"
+alias rm="rm -v"
+alias ls="ls -hF --color=auto --hide='*.pyc'"
+alias mv="mv -v --backup=existing"
+alias mmv="noglob zmv -W"
+alias grep="grep --color=auto -n"
+alias halt="sudo shutdown -h now"
+alias reboot="sudo reboot"
+
+# common apps
+function matlabgui() { matlab }
+alias matlab="matlab -nosplash -nodesktop" 
+alias mplayer="mplayer -idx"
+alias wget="wget --timeout 10"
+alias R="R --no-save"
+
+# random stuff
+alias outside="weatherget"
+
+# auto-open
+alias -s {jpg,JPG,jpeg,JPEG,png,PNG,gif,GIF}="mirage"
+alias -s {mpg,mpeg,avi,ogm,wmv,m4v,mp4,mov}="mplayer -idx"
+alias -s {mp3,ogg,wav,flac}="cplay"
+alias -s {html,php,com,net,org,gov}="firefox"
+alias -s txt="vim"
+alias -s pdf="evince"
+
+## global pipe aliases
+alias -g L="| less" #	<< less is the best pager evar.
+alias -g H="| head"
+alias -g T="| tail"
+alias -g G="| grep"
+alias -g E="| egrep"
+alias -g S="| sed -r -e"
+
+# reinforcing my habits
+alias evinec="evince"

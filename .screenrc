@@ -1,0 +1,53 @@
+#---------------------------------------------------------------------------------------------------------------------------------------------
+# Gigamo's dot .screenrc
+# Last modified 03/03/2008 17:27
+#---------------------------------------------------------------------------------------------------------------------------------------------
+
+defflow auto
+defscrollback 10000
+deflogin on
+altscreen on
+autodetach on
+msgwait 2 # 1 second messages
+shell /bin/zsh
+
+caption always "%{= b}[ %{G}%H::$USER %{b}][ %=%{w}%?%-Lw%?%{b}(%{W}%n*%f %t%?(%u)%?%{b})%{w}%?%+Lw%?%= %{b} ][%{B} %Y.%m.%d %{b}]"
+#hardstatus alwayslastline "%{=b W}%{k} %= %w %=" 
+#%{= kb}
+
+activity "active: %n (%t) [%w:%s]"
+bell "bell: %n (%t) [%w:%s]^G"
+vbell_msg "[[[ ding ]]]"
+vbell off
+startup_message off
+setenv LC_CTYPE en_US.UTF-8
+defutf8 on
+
+termcapinfo xterm|xterms|xterm-color|screen|xs|rxvt* ti@:te@
+
+sorendition +b kG
+
+# Default apps
+#screen -t 'torrent' rtorrent
+#screen -t 'mail' mutt
+#screen -t 'rss' snownews -u
+#screen -t 'irc' irssi 
+#screen -t 'log'	sudo tail -f /var/log/messages.log
+screen -t 'zsh'
+
+
+#bind r screen -t 'torrent' rtorrent
+bind x screen -t 'zsh' 
+bind k
+bind W
+bind ^k
+bind .
+bind ^\
+bind \\
+bind ^h
+bind h
+bind 'K' kill
+bind 'W' windowlist
+      
+bindkey -k k1 prev
+bindkey -k k2 next

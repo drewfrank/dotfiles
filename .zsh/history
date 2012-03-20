@@ -1,0 +1,3001 @@
+mkdir join
+cd join
+vim a
+vim b
+join a b
+which join
+man join
+join --check-order a b
+vim a
+vim b
+join a b
+join a b
+echo $?
+join a b
+vim c
+sort c
+sort -n c
+join a b
+join -n a b
+~/code/coreutils/src/join a b
+~/code/coreutils/src/join -n a b
+c
+man 3 strtold
+man 3 strtold
+man memcasecmp
+man 3 memcmp
+man sort
+man sort
+~/code/coreutils/src/join a b
+~/code/coreutils/src/join -n a b
+~/code/coreutils/src/join -n a b
+pacaur -Ss vc-dwim
+~/code/coreutils/src/join --help
+man join
+man join
+man join
+man sort
+pacaur -Ss vc-dwim
+c
+cd ~/code/coreutils
+vim HACKING
+git br
+vim src/join.c
+cp /tmp/join.c src/
+cp /tmp/join tests/misc/join
+vim src/join.c
+vim tests/misc/join
+git st
+git add src/join.c
+git add tests/misc/join
+src/join --help
+c
+make
+src/join --help
+c
+vim HACKING
+git br
+vim HACKING
+ps -e G vim
+kill 31582
+kill 3598
+vim HACKING
+git format-patch --stdout -1 >join.numeric.sort.diff
+vim join.numeric.sort.diff
+vim HACKING
+vim HACKING
+exit
+cd code/coreutils
+git br
+git rebase master
+git co master
+git br
+git pull
+git co numsort
+c
+vim HACKING
+make
+cd tests
+make check TESTS=misc/join
+..
+c
+vim HACKING
+rm join.numeric.sort.diff
+git format-patch --stdout -1 >join.numeric.sort.diff
+vim HACKING
+src/join --help
+vim HACKING
+c
+vim join.numeric.sort.diff
+c
+ls
+vim README-hacking
+c
+ls
+cat join.numeric.sort.diff
+c
+exit
+exit
+cd code/coreutils
+git commit --amend
+c
+git format-patch --stdout -1 >join.numeric.sort.diff
+rm join.numeric.sort.diff
+git format-patch --stdout -1 >join.numeric.sort.diff
+exit
+exit
+python2
+c
+exit
+evince tsp12/TODO.pdf
+c
+cd ~/code/alex
+svn up
+cd toolbox/
+c
+ls
+cd cpp
+vim solve_uai.cpp
+vim solve_exact.cpp
+ls
+cd src
+..
+cd test
+ls
+exit
+cd research/mhtEM/exp_em
+..
+scd
+c
+ls
+workon mht
+cd exp_em
+c
+ls
+c
+c
+ls
+vim process_results.py
+ls results
+c
+ls
+vim process_results.py
+./process_results.py -c 0.5 --alpha 0.1 results/*100000*
+vim process_results.py
+./process_results.py -c 0.5 --alpha 0.1 results/*100000*
+c
+ls
+vim quickplot.py
+vim plot_results.py
+ls -lt H
+c
+cd ../ssp
+vim results.py
+c
+./results.py
+vim results.py
+./results.py
+vim results.py
+./results.py
+evince results_lines.pdf
+vim results.py
+c
+cd ../exp_em/scores
+c
+ls
+ls H
+cat scene00_homht_1000_Q.score
+cat scene00_homht_100000_Q.score
+cat scene01_homht_1000_Q.score
+cat scene01_homht_100000_Q.score
+cat scene02_homht_1000_Q.score
+vim ../../ssp/results.py
+cat scene02_tomht_5_Q.score
+cat scene01_tomht_5_Q.score
+cat scene00_tomht_5_Q.score
+vim ../../ssp/results.py
+c
+cat scene32_tomht_5_Q.score
+cat scene32_homht_100000_Q.score
+c
+..
+vim process_results.py
+cat scene32_tomht_5_Q.score
+cat scores/scene32_tomht_5_Q.score
+cat scores/scene32_homht_100000_Q.score
+./process_results.py -c 0.5 --alpha 0.1 results/scene32_tomht_5_Q.p
+cat scores/scene32_tomht_5_Q.score
+./process_results.py -c 0.5 --alpha 0.1 results/scene32_homht_100000_Q.p
+cat scores/scene32_homht_100000_Q.score
+vim process_results.py
+./process_results.py -c 0.5 --alpha 0.1 results/scene32_homht_100000_Q.p
+vim process_results.py
+./process_results.py -c 0.5 --alpha 0.1 results/scene32_homht_100000_Q.p
+c
+c
+cat scores/scene32_tomht_5_Q.score
+cat scores/scene32_homht_100000_Q.score
+vim process_results.py
+./process_results.py -c 0.5 --alpha 0.1 results/scene32_homht_100000_Q.p
+./process_results.py -c 0.5 --alpha 0.1 results/scene32_homht_100000_Q.p
+vim process_results.py
+cat scores/scene32_homht_100000_Q.score
+rm scores/scene32_homht_100000_Q.score
+vim process_results.py
+./process_results.py -c 0.5 --alpha 0.1 results/scene32_homht_100000_Q.p
+cat scores/scene32_homht_100000_Q.score
+vim process_results.py
+vim process_results.py
+./process_results.py -c 0.5 --alpha 0.1 results/scene32_homht_100000_Q.p
+cat scores/scene32_homht_100000_Q.score
+vim process_results.py
+cat scores/scene32_homht_100000_Q.score
+./process_results.py -c 0.5 --alpha 0.1 results/scene32_homht_100000_Q.p
+c
+cat scores/scene32_homht_100000_Q.score
+cat scores/scene32_tomht_5_Q.score
+./process_results.py -c 0.5 --alpha 0.1 results/scene32_homht_100000_Q.p
+c
+./process_results.py -c 0.5 --alpha 0.1 results/scene32_homht_100000_Q.p
+./process_results.py -c 0.5 --alpha 0.1 results/scene32_tomht_5_Q.p
+c
+ls
+vim run.py
+cd results
+..
+c
+vim run.py
+c
+ls
+vim ../tomht.py
+vim run.py
+vim ../tomht.py
+vim run.py
+c
+ls
+vim process_results.py
+./process_results.py -c 0.5 --alpha 0.1 results/scene32_homht_100000_Q.p
+vim process_results.py
+./process_results.py -c 0.5 --alpha 0.1 results/scene32_homht_100000_Q.p
+cat scores/scene32_tomht_5_Q.score
+cat scores/scene32_homht_100000_Q.score
+c
+./process_results.py -c 0.5 --alpha 0.1 results/*100000*
+c
+ls ~/research/nips09
+vim ~/research/nips09/nips09.tex
+c
+cd ../ssp
+cp ~/IEEE* .
+ls
+ls
+ls template
+mv template/spconf.sty .
+c
+ls
+git st .
+git mv template/spconf.sty spconf.sty
+mv spconf.sty template
+git mv template/spconf.sty spconf.sty
+git st
+c
+git st .
+git add IEEE*
+evince grayscale.pdf
+rm grayscale.pdf
+c
+ls
+less IEEEabrv.bib
+c
+ls
+less IEEEabrv.bib
+vim IEEEabrv.bib
+c
+ls
+vim ssp.tex
+c
+c
+vim ssp.tex
+vim ssp.log
+c
+c
+vim ssp.tex
+c
+c
+ls
+git add -u .
+git st
+c
+ls
+git st .
+git add fig_track_tree_fg.tex
+rm -rf template
+c
+git st .
+git add template
+git st
+git st .
+git commit -m 'Ready for submission, pending Padhraic's final read.'
+git commit -m "Ready for submission, pending Padhraic's final read."
+c
+c
+ls
+vim ssp.tex
+c
+ls
+vim ssp.tex
+c
+git st
+git diff ssp.tex
+vim ssp.tex
+git diff ssp.tex
+git add -u .
+git commit -m 'Incorporated Padhraic's edits to the text.'
+git commit -m "Incorporated Padhraic's edits to the text."
+c
+git st
+c
+ls
+git st .
+git ls .
+c
+vim ssp.tex
+c
+git diff .
+vim ssp.tex
+c
+git add -u .
+git commit -m 'Tweaked plots.'
+c
+git diff HEAD HEAD^1
+git diff HEAD ^1
+git diff HEAD ^2
+git diff HEAD HEAD^
+git diff HEAD HEAD\^
+c
+c
+c
+c
+git help tag
+git tag -a Submission -m 'Final submitted version.'
+git log
+c
+git add CopyRightReceipt.pdf
+git commit -m 'Added copyright waiver form.'
+c
+ls
+vim ssp.tex
+c
+vim ssp.bib
+vim ssp.tex
+c
+git add -u .
+git commit -m 'Added hyperref package.'
+git diff HEAD\^
+git diff
+git st
+c
+c
+ls
+..
+c
+ls
+mkdir tsp12
+git mv ssp ssp12
+git st
+git commit -m 'Renamed ssp to ssp12.'
+c
+ls
+git st
+cd tsp12
+vim TODO.tex
+c
+ls
+..
+c
+ls
+git add tsp12/
+git commit -m 'Created folder for TSP sumission, made TODO list.'
+c
+ls
+ls
+evince tech_report/mhtEM_report.p
+evince tech_report/mhtEM_report.pdf
+c
+ls
+vim jointpf.py
+c
+ls
+rm badarray*
+c
+ls
+vim tomht.py
+grep -i ismarg *,py
+grep -i ismarg *.py
+grep -i is_marg *.py
+grep -i is_marg *
+grep -i ismarg *
+cd exp_bp
+vim ismarg.py
+c
+c
+evince ../tsp12/TODO.pdf&
+ls
+c
+..
+mv ~/ijgp-samplesearch .
+ls
+chmod +x ijgp-samplesearch
+ls *.uai
+ls **/*.uai
+less exp_bp/models/scene00.uai
+wc -l exp_bp/models/scene00.uai
+./ijgp-samplesearch exp_bp/models/scene00.uai
+./ijgp-samplesearch exp_bp/models/scene00.uai noevid 1 PR
+ls -lt H
+vim scene00.uai.PR
+./ijgp-samplesearch exp_bp/models/scene00.uai noevid 5 PR
+vim scene00.uai.PR
+./ijgp-samplesearch exp_bp/models/scene00.uai noevid 60 PR
+c
+./jtree exp_bp/models/scene00.uai noevid PR
+./jtree exp_bp/models/scene00.uai noevid 0 PR
+c
+ls
+cd ~/code/alex
+svn up
+c
+ls
+cd toolbox/@spfactor
+ls ../@factor
+vim table.m
+vim full.m
+vim spfactor.m
+c
+ls
+vim ls
+vim spfactor.m
+c
+cd ~/research/mhtEM
+grep ismar *.py
+cd exp_bp
+vim ismarg.py
+c
+vim ismarg.py
+vim ismarg.py
+c
+/////////////////;///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////;////////////////////////
+c
+ls
+cd
+reset
+c
+ls
+cd research/m
+cd research/mhtEM
+c
+cd exp_bp
+ls
+vim ismarg.py
+deactivate
+c
+cd ../..
+mkdir mplp_rounding
+cd mplp_rounding
+ln -s ~/code/alex/toolbox/ .
+ls
+vim toolbox/examples.m
+c
+ls
+scd
+c
+ls
+cp toolbox/cpp/test/testMPLP* .
+vim testMPLP.cpp
+vim testMPLPS.cpp
+vim toolbox/cpp/src/graphmodel.cpp
+grep MPLP toolbox/**/*
+vim toolbox/cpp/include/mplp.h
+ls
+vim testMPLPS.cpp
+meld testMPLP*
+grep -i mplp toolbox/**/*
+ls
+cp toolbox/cpp/test/testMplpFG.cpp .
+c
+ls
+vim testMplpFG.cpp
+rm testMplpFG.cpp
+ls
+vim testMPLP.cpp
+vim testMPLPS.cpp
+ls
+c
+ls
+vim testMPLP.cpp
+c
+ls
+rm testMPLP*
+c
+ls
+exit
+vim .ipython/profile_default/virtualenv.py
+vim .ipython/profile_default/ipython_config.py
+exit
+vim .ipython/profile_default/ipython_config.py
+vim .ipython/profile_default/virtualenv.py
+vim .ipython/profile_default/ipython_config.py
+locate virtualenv_ext
+vim .ipython/profile_default/ipython_config.py
+exit
+cd code
+tar cz coreutils >coreutils.tgz
+ls -l
+cd coreutils
+vim Makefile
+find . -name 'config.h'
+ls lib
+c
+ls
+cd ~/tmp
+cp ../code/coreutils/src/join.c .
+gcc -I../code/coreutils/lib -o boojoin join.c
+gcc -I../code/coreutils/lib -I../code/coreutils/src -o boojoin join.c
+vim exit
+exit
+cd code/coreutils
+find . -name 'system.h'
+ls src
+ls src/*.h
+vim src/system.h
+vim lib/config.h
+c
+ls
+exit
+cd code/coreutils
+git br
+vim Makefile
+cd code/coreutils
+cd src
+vim Makefile
+man gcc
+man gcc
+c
+ls
+..
+grep static *
+grep "-static" *
+c
+grep "-static" *
+grep "\-static" *
+grep "-static" *
+grep '-static' *
+c
+ls
+vim configure
+CFLAGS="-static" ./configure
+rm src/join
+make
+ls src
+ldd src/join
+scp join dl1:
+scp src/join dl1:
+c
+..
+cp -R coreutils /extra/ajfrank2/
+exit
+cp code/coreutils/gnulib/top/maint.mk /extra/ajfrank2/coreutils/
+exit
+cd code/coreutils
+ls m4
+man cp
+\rm -rf /extra/ajfrank2/coreutils
+man tar
+..
+tar chf coreutils | tar xd /extra/ajfrank2
+man tar
+tar chf coreutils | (cd /extra/ajfrank2 && tar xpf -)
+(tar chf coreutils) | (cd /extra/ajfrank2 && tar xpf -)
+(tar chf - coreutils) | (cd /extra/ajfrank2 && tar xpf -)
+c
+cd /extra/ajfrank2/coreutils/src
+./join
+exit
+exit
+c
+ssh dl5
+c
+ls
+exit
+python2
+c
+cd research/mhtEM
+workon mht
+ipython2
+c
+cd exp_bp
+./ismarg.py
+./ismarg.py
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+c
+cd research/mhtEM
+workon mht
+ipython2 --pylab
+c
+cd ../mplp_rounding
+vim toolbox/examples.m
+vim toolbox/examples.m
+c
+pacaur -Ss aurvote
+pacaur -S aurvote
+c
+cd ~/research/mhtEM
+cd exp_
+cd exp_bp
+vim ismarg.py
+ipython2
+c
+exit
+exit
+exit
+c
+cd music/
+scd
+mplayer -loop 0 -ao pulse rainymood.ogg
+mplayer -ao pulse -loop 0 bit.trip/01\ Blackout\ City\ \(feat.\ Anamanaguchi\).mp3
+screen -x pts-6.ajfrank
+screen -x pts-2.ajfrank
+screen -x pts-0.ajfrank
+c
+killall 1447
+kill 1447
+c
+exit
+cd research/mplp_rounding
+./mplp -f models/pedigree/pedigree1.uai --mplpo 4 -i 10 --dt 3
+./mplp -f models/pedigree/pedigree1.uai --mplpo 1e-5 -i 10 --dt 3
+./mplp -f models/pedigree/pedigree1.uai -i 10 --dt 3
+make
+vim Makefile
+make
+./mplp -f models/pedigree/pedigree1.uai -i 10 --dt 3
+./mplp -f models/pedigree/pedigree1.uai --mplpo 1e-5 -i 10 --dt 3
+./mplp -f models/pedigree/pedigree1.uai --mplpo 1e-12 -i 10 --dt 3
+./mplp -f models/pedigree/pedigree1.uai --mplpo 1e-20 -i 10 --dt 3
+./mplp -f models/pedigree/pedigree1.uai --mplpo 1e-30 -i 10 --dt 3
+./mplp -f models/pedigree/pedigree1.uai --mplpo 0 -i 10 --dt 3
+./mplp -f models/pedigree/pedigree1.uai --mplpo 1e-50 -i 10 --dt 3
+./mplp -f models/pedigree/pedigree1.uai --mplpg 1e-8 -i 10 --dt 3
+c
+./mplp -f models/pedigree/pedigree1.uai --mplpg 1e-8 -i 10 --dt 3
+make
+make
+rm mplp
+make
+./mplp -f models/pedigree/pedigree1.uai --mplpg 1e-8 -i 10 --dt 3
+./mplp -f models/pedigree/pedigree1.uai --mplpo 1e-8 -i 10 --dt 3
+./mplp -f models/pedigree/pedigree1.uai --mplpo 1e-3 -i 10 --dt 3
+./mplp -f models/pedigree/pedigree1.uai --mplpo 1e-20 -i 10 --dt 3
+./mplp -f models/pedigree/pedigree1.uai --mplpo 1e-40 -i 10 --dt 3
+vim Makefile
+ls
+vim Makefile
+make clean
+make
+./mplp -f models/pedigree/pedigree1.uai --mplpo 1e-40 -i 10 --dt 3
+c
+make
+c
+make
+make
+make
+make
+make
+c
+make
+make
+make
+make
+make
+c
+make
+make
+ls
+make
+make
+make
+make
+cd res/mh
+cd ~/research/mhtEM
+c
+ls
+c
+ls
+cd research/mplp_rounding
+ls
+ls /extra/ajfrank2/research/mplp_rounding
+cp /extra/ajfrank2/research/mplp_rounding/m* .
+cp /extra/ajfrank2/research/mplp_rounding/Makefile .
+cp -R /extra/ajfrank2/research/mplp_rounding/models
+cp -R /extra/ajfrank2/research/mplp_rounding/models .
+cp /extra/ajfrank2/research/mplp_rounding/rounding.h .
+cp /extra/ajfrank2/research/mplp_rounding/test.uai
+cp /extra/ajfrank2/research/mplp_rounding/test.uai .
+c
+ls
+source ~/.profile
+c
+vim ~/.xinitrc
+vim ~/.Xdefaults
+vim ~/.Xmodmap
+xmodmap
+xmodmap ~/.Xmodmap
+c
+ls
+ls /extra/ajfrank2/research/mplp_rounding
+c
+ls
+make
+./mplp -f models/pedigree/pedigree1.uai --dt 3
+c
+vim mplp.cpp
+make
+./mplp -f models/pedigree/pedigree1.uai -i 10 --dt 3
+ls
+cd toolbox
+svn up
+cd -
+make
+rm mplp
+make
+./mplp -f models/pedigree/pedigree1.uai -i 10 --dt 3
+c
+vim mplp.cpp
+./mplp --help
+./mplp -f models/pedigree/pedigree1.uai --mplpo 1e-6 -i 10 --dt 3
+vim mplp.cpp
+./mplp -f models/pedigree/pedigree1.uai --mplpo .00001 -i 10 --dt 3
+./mplp -f models/pedigree/pedigree1.uai --mplpo .00001 -i 10 --dt 3
+./mplp -f models/pedigree/pedigree1.uai --mplpo .000000000001 -i 10 --dt 3
+./mplp -f models/pedigree/pedigree1.uai --mplpo 4 -i 10 --dt 3
+vim mplp.cpp
+vim mplp.cpp
+c
+ls
+vim mplp.cpp
+vim rounding.h
+cd
+cd research/mhtEM
+cd exp_bp
+vim ismarg.py
+diff ismarg.py blargh
+vim ismarg.py
+vim blargh
+rm blargh
+c
+ls
+vim ismarg.py
+c
+exit
+exit
+c
+screen -x pts-16.ajfrank
+screen -x pts-2.ajfrank
+screen -x pts-0.ajfrank
+screen -x pts-11.ajfrank
+exit
+cd research/mhtEM/exp_bp
+workon mht
+c
+ls
+vim ismarg.
+vim ismarg.p
+vim ismarg.py
+cd /extra/ajfrank2/research/mhtEM/exp_bp
+vim ismarg.py
+c
+exit
+exit
+cd /extra/ajfrank2/research/mhtEM/exp_bp
+cat samples/scene00_01.txt
+cat samples/scene00_01.txt H
+python
+python2
+c
+python
+c
+vim samples/scene00_01.txt
+cd samples
+cat * >all.txt
+vim all.txt
+vim samples/scene00_01.txt
+vim scene00_01.txt
+c
+..
+./ismarg.py --scene ../exp_em/scenes/scene00.p -n 1 -o -
+workon mht
+./ismarg.py --scene ../exp_em/scenes/scene00.p -n 1 -o -
+./ismarg.py --scene ../exp_em/scenes/scene00.p -n 1 -o -
+c
+ls
+c
+ls
+git st
+c
+ls
+mv samples samples_nomodifier
+mkdir samples
+c
+exit
+cd research/mh/exp_bp
+cd research/mhtEM/exp_bp
+c
+workon mht
+c
+ipython2
+exit
+exit
+cd research/mhtEM/exp_em
+./view scenes/scene00.p
+./view.py scenes/scene00.p
+workon mht
+./view.py scenes/scene00.p
+exit
+screen -x pts-0.ajfrank
+screen -x pts-11.ajfrank
+screen -x pts-2.ajfrank
+screen -x pts-6.ajfrank
+screen -x pts-3.ajfrank
+c
+screen
+screen -x pts-6.ajfrank
+screen -x pts-2.ajfrank
+screen -x pts-0.ajfrank
+screen -x pts-11.ajfrank
+exit
+c
+cd research/mhtEM/exp_em
+cd exp_bp
+cd ../exp_bp
+vim ismarg.py
+cd /extra/ajfrank2/research/mhtEM/exp_bp
+vim ismarg.py
+c
+ls
+ls samples
+cat /usr/share/xsessions/xmonad.desktop
+exit
+scp lab:/usr/share/xsessions/xmonad.desktop .
+exit
+cd /extra/ajfrank2/research/mhtEM/exp_bp
+vim ismarg.py
+vim ismarg.py
+c
+exit
+screen -r
+c
+screen -r
+screen -x pts-0.ajfrank
+screen -x pts-11.ajfrank
+screen -x pts-11.ajfrank
+screen -x pts-2.ajfrank
+screen -x pts-3.ajfrank
+screen -x pts-6.ajfrank
+screen -x pts-0.ajfrank
+screen -x pts-2.ajfrank
+cd research/mplp_rounding
+make
+cd toolbox
+svn log
+svn log H
+c
+make
+..
+make
+make
+make
+make
+c
+make
+c
+make
+vim toolbox/cpp/include/Factor.h
+ls
+rm mplp
+make
+vim rounding.h
+vim rounding.h
+make
+exit
+cd research/mplp_rounding
+vim mplp.cpp
+c
+cd toolbox
+svn up
+svn log
+svn log L
+c
+ls
+vim mplp.cpp
+..
+vim mplp.cpp
+grep using *
+vim rounding.h
+cd toolbox
+svn log -v
+svn log -v H
+vim cpp/include/mbe.h
+vim cpp/include/Factor.h
+c
+svn status
+svn diff cpp/include/Factor.h
+c
+ls
+svm commit -m 'Added comparison operators to Factor class.' cpp/include/Factor.h
+svn commit -m 'Added comparison operators to Factor class.' cpp/include/Factor.h
+svn log
+svn log L
+c
+svn log L
+svn log H
+c
+svn st
+svn log
+svn log H
+c
+svn help commit
+svn help ci
+c
+svn log
+c
+svn log H
+svn up
+svn up
+c
+svn log
+svn log H
+c
+svn help
+svn help merge
+svn help merge L
+svn log H
+svn merge -c r86
+svn help merge
+svn merge -c 86
+svn merge -c 86 cpp/include/Factor.h
+svn stat
+vim cpp/include/Factor.h
+svn log H
+svn merge -c 85 cpp/include/Factor.h
+vim cpp/include/Factor.h
+c
+svn stat
+svn merge -c -86 cpp/include/Factor.h
+svn stat
+svn diff cpp/include/Factor.h
+vim cpp/include/Factor.h
+c
+svn commit -m 'Removed comparison operators from Factor class.' cpp/include/Factor.h
+svn log H
+svn up
+svn log H
+c
+ls
+df -h
+c
+c
+ls
+c
+exit
+ls
+locate cpu_avail
+vim cpu_avail.sh
+./cpu_avail.sh
+vim cpu_avail.sh
+c
+top
+c
+cd code/coreutils
+git br
+git br master
+git co master
+git st
+git fetch
+git st
+git merge origin/master
+git log
+git help submodule
+git submodule gnulib update --merge
+git submodule update --merge
+c
+git log
+c
+git co numsort
+git rebase origin/master
+git log
+c
+c
+ls
+\:q
+c
+exit
+c
+cd /extra/ajfrank2/competition/hewlett
+workon hewlett
+c
+ipython2
+python
+ipython2
+c
+deactivate
+c
+exit
+exit
+exit
+cd /extra/ajfrank2/competition/
+mv hewlett/ essays
+cd essays
+mkvirtualenv essays
+rmvirtualenv essays
+mkvirtualenv -p python2 essays
+c
+deactivate
+exit
+exit
+exit
+exit
+deactivate
+exit
+top
+c
+alsamixer
+c
+alsamixer
+c
+vim research/nips09/rebuttal
+c
+exit
+exit
+exit
+killall pidgin
+killall pidgin
+killall pidgin
+killall pidgin
+ls -lt .purple/logs/**/* H
+vim .purple/logs/jabber/drewfrank@gmail.com/chris.dubois@gmail.com/2012-03-13.130629-0700PDT.txt
+c
+exit
+cd research/mhtEM/tsp12
+l
+exit
+cd research/mhtEM
+cd exp_bp
+cd /extra/ajfrank2/research/mhtEM/exp_bp/
+cd samples_1
+ipython2 --pylab
+c
+exit
+cd research/mhtEM
+python2
+cd exp_bp
+python2
+c
+vim ~/.inputrc
+echo $PYTHONSTARTUP
+ls ~/.pystartup
+vim ~/.pystartup
+vim ~/.zsh/export
+exit
+python2
+python2
+c
+exit
+cd .purple/logs/
+ls -lt **/* H
+vim jabber/drewfrank@gmail.com/lars.otten@gmail.com/2012-03-16.094254-0700PDT.txt
+killall pidgin
+killall pidgin
+vim jabber/drewfrank@gmail.com/awfrank@gmail.com/2012-03-16.144920-0700PDT.txt
+exit
+c
+cd code/coreutils
+cd src
+vim join.
+vim join.c
+c
+screen -x pts-0.ajfrank
+pacman -Qs wallp
+pacman -Qs deskto
+c
+pacman -Qs root
+ls
+man 1 xsetroot
+c
+c
+cd code/coreutils/src
+grep IF_LINT *
+grep -i "#define IF_LINT" **/*
+grep -ir "#define IF_LINT" **/*.h
+grep -ir "#define IF_LINT" **/*.c
+grep -r "IF_LINT" **/*.c
+grep -r "IF_LINT" **/*.h
+vim system.h
+c
+..
+make
+c
+git br
+git co master
+git stash
+git co master
+git fetch origin/master
+git fetch
+git st
+git merge origin/master
+git co numsort
+git rebase master
+git stash pop
+git st
+make
+./configure
+make
+make clean
+c
+make
+make clean
+c
+git submodule update --merge
+git submodule foreach git pull origin master
+c
+git st
+./configure
+make
+bash
+c
+exit
+sudo pacman -Syu
+sudo vim /etc/X11/xorg.conf
+c
+pacup
+c
+cd competitions
+killall firefox
+cd ../code
+mv pipeline old.pipeline
+git clone git@github.com:doobwa/pipeline.git
+cd pipeline
+git st
+git log
+c
+ls
+cat eval.r
+c
+ls
+vim kaggle.Rproj
+vim setup.r
+git log
+c
+ls
+ls methods
+ls methods/vw
+ls methods/knn
+c
+cd ../coreutils
+git pull origin master
+git submodule foreach git pull origin master
+c
+make clean
+c
+ls
+git log
+c
+ls
+fin d. -name 'join'
+find . -name 'join'
+vim README-hacking
+make check
+c
+ls
+vim bootstrap
+./bootstrap
+vim README-hacking
+./configure --quiet
+vim README-hacking
+make
+make check
+c
+ls
+find . -name 'join'
+ls src
+cd src
+vim join.c
+..
+cp ~/join.c.diff* .
+cp ~/join_proposal_2.diff .
+c
+ls
+vim join.c.diff
+cd src
+vim join.c
+vim ../join.c.diff
+cp join.c join.c.orig
+vim ../join_proposal_2.diff
+man sort
+info sort
+c
+ls
+vim join.c.orig
+vim ../join.c.diff
+man patch
+vim ../join.c.diff
+vim ../join.c.diff
+..
+vim join.c.diff
+man patch
+patch <join.c.diff
+man patch
+man diff
+cp src/join.c{,~}
+patch <join.c.diff
+ls src
+man patch
+vim join.c.diff
+patch -p0 <join.c.diff
+cd src
+vim join.c
+vim join.c.rej
+c
+rm join.c.rej
+c
+..
+diff src/join.c.~ src/join.c >fixed.patch
+diff src/join.c~ src/join.c >fixed.patch
+rm fixed.patch
+diff src/join.c~ src/join.c >fixed.patch
+vim fixed.patch
+man diff
+man diff
+rm fixed.patch
+diff -u src/join.c~ src/join.c >fixed.patch
+vim fixed.patch
+c
+make
+cd src
+./join
+./join -h
+./join --help
+c
+ls
+..
+c
+ls
+ls tests
+find . -name 'test'
+cd src/test
+cd tests
+ls misc
+cd misc
+vim join
+c
+ls
+../../src
+cd -
+vim join
+./join
+vim join.log
+..
+vim sample-test
+..
+vim Makefile
+grep check-recursive *
+grep check-recursive **/*
+cd tests
+vim Makefile
+misc/join
+vim ../README-hacking
+vim ../README
+make check TESTS=misc/join
+make check TESTS=misc/join
+vim misc/join
+make check TESTS=misc/join
+vim misc/join
+make check TESTS=misc/join
+vim misc/join
+make check TESTS=misc/join
+vim misc/join
+make check TESTS=misc/join
+vim ../README
+make check TESTS=misc/join VERBOSE=yes
+vim misc/join
+make check TESTS=misc/join VERBOSE=yes
+vim misc/join
+make check TESTS=misc/join VERBOSE=yes
+vim misc/join
+make check TESTS=misc/join VERBOSE=yes
+vim misc/join
+make check TESTS=misc/join VERBOSE=yes
+vim misc/join
+vim misc/join
+make check TESTS=misc/join VERBOSE=yes
+man sort
+c
+ls
+..
+vim join.c.diff
+vim src/join.c
+c
+ls
+make
+cd tests
+make check TESTS=misc/join VERBOSE=yes
+..
+vim src/join.c
+make
+cd tests
+make check TESTS=misc/join VERBOSE=yes
+c
+ls
+..
+vim README-hacking
+pacman -Ss vc-dwim
+pacman -Ss vc-dwim
+vim README-hacking
+git diff
+vim tests/misc/join
+git diff
+c
+cd tests
+make check TESTS=misc/join VERBOSE=yes
+ls
+..
+vim ChangeLog
+vim README
+vim README-hacking
+ls tests
+ls tests/misc
+c
+ls
+vim ChangeLog-2005
+vim ChangeLog
+vim HACKING
+git checkout -b br
+git checkout master
+git log
+c
+git br
+cp src/join.c /tmp
+cp tests/misc/join /tmp
+c
+git reset --hard origin
+git pull
+git log
+c
+git lot
+git log
+vim ~/.gitconfig
+vim ChangeLog
+git br
+git co br
+git st
+rm src/join.c.orig
+rm join_proposal_2.diff
+rm join.c.diff
+rm fixed.patch
+git log
+c
+git br
+git rebase master
+git log
+c
+git co master
+git log
+c
+git branch -D br
+git branch numsort
+git co numsort
+git log
+c
+git br
+git log
+c
+git br
+git st
+git commit
+c
+c
+c
+c
+reset
+c
+reset
+git log
+c
+git st
+git log
+c
+git commit
+git log
+git commit --amend
+c
+git log
+c
+git br
+make syntax-check
+git br
+vim tests/misc/join
+make syntax-check
+vim src/join.c
+make syntax-check
+vim tests/misc/join
+make syntax-check
+vim src/join.c
+make syntax-check
+c
+git br
+git add tests/misc/join
+git add src/join.c
+git commit --amend
+git log
+c
+rm join.numeric.sort.diff
+git format-patch --stdout -1 >join.numeric.sort.diff
+vim join.numeric.sort.diff
+c
+c
+git diff --check
+git log
+git help format-patch
+c
+git log
+git log -l
+git log -v
+git log -vv
+git log --long
+git help log
+git log --pretty full
+git log --pretty=full
+c
+ls
+c
+cd
+c
+cd code
+ls pipeline
+mv pipeline pipeline.old
+mkdir pipeline
+cd pipeline
+git clone git://github.com/doobwa/pipeline .
+git clone git://github.com/doobwa/pipeline
+git clone https://github.com/doobwa/pipeline
+git clone http://github.com/doobwa/pipeline
+git@github.com:doobwa/pipeline.git
+git@github.com:doobwa/pipeline.git .
+git clone git@github.com:doobwa/pipeline.git .
+ls
+..
+cd pipeline
+rm -rf *
+c
+ls -a
+git clone git@github.com:doobwa/pipeline.git
+ls
+..
+cd pipeline
+cd ../pipeline.old
+..
+rm -rf pipeline.old
+c
+ls
+rm -rf old.pipeline
+c
+ls
+cd pipeline
+cd pipeline
+git log
+git pull
+c
+pacup
+pacr monodevelop
+pacr monodevelop
+pacup
+pacr gecko-sharp-2.0
+pacup
+pacr xulrunner
+pacup
+c
+pacup
+c
+cd ~/code/coreutils
+vim src/sort.c
+c
+pacup
+c
+pacup
+c
+sudo killall dhcpcd
+sudo dhcpcd eth0
+c
+pacup
+c
+cd
+c
+pacup
+c
+cp mplp.cpp /extra/ajfrank2/research/mplp_rounding
+vim .pentadactylrc
+c
+vim .pentadactylrc
+c
+mv ~/pedigreeAll.zip /extra/ajfrank2/research/mplp_rounding/
+c
+ls
+c
+pacup
+c
+cd code/pipeline/pipeline
+git pull
+git log
+git log 3a66464
+c
+git help log
+git st
+git log
+git help log
+gl
+git log
+gd
+c
+vim ~/.purple/logs/jabber/drewfrank@gmail.com/scott.triglia@gmail.com
+cd ~/.purple/logs/jabber/drewfrank@gmail.com/scott.triglia@gmail.com/
+grep -i merge *.txt
+grep -i rebase *.txt
+grep -i rebase *.txt
+ls
+grep -i git *
+man grep
+grep -i git * -C 3
+c
+ls
+grep -i marge *
+grep -i merge *
+grep -i rebase *
+grep -i pretty *
+grep -i commit *
+c
+cd
+c
+popd
+popd
+c
+ls
+git log
+git log --stat
+git log --stat
+vim stage.r
+c
+ps -e G scre
+c
+ls
+ps -e G scre
+screen -wipe
+ps -e G scree
+c
+vim ~/code/pynotes/notes.txt
+c
+cat /extra/ajfrank2/research/mhtEM/exp_bp/samples
+cat /extra/ajfrank2/research/mhtEM/exp_bp/samples/*
+c
+ls
+git log
+c
+git fetch
+git rebase origin/master
+git log
+c
+ls
+vim stage.r
+vim ~/.vimrc
+vim stage.r
+c
+git st
+c
+cd
+c
+pacup
+c
+cat .ssh/authorized_keys
+cat .ssh/id_rsa.pub
+hexdump .ssh/id_rsa
+c
+man ssh-keygen
+ssh-keygen -l -f .ssh/id_rsa.pub
+ssh-keygen -lf .ssh/id_rsa.pub
+locate words
+locate dict
+man n dict
+pacman -Qs dictionary
+pacman -Ql aspell-en
+c
+pacman -Ql aspell-en
+vim /usr/lib/aspell-0.60/en.dat
+vim /usr/lib/aspell-0.60/en_US.multi
+vim /usr/lib/aspell-0.60/en_US-wo_accents.multi
+vim /usr/lib/aspell-0.60/en-common.rws
+c
+sudo vim /etc/cups/printers.conf
+sudo vim /etc/cups/client.conf
+c
+locate -i phaser
+locate -i 3600
+c
+c
+pacman -Qs xerox
+pacman -Q print
+pacman -Qs print
+locate ppd
+ls /etc/cups/ppd/
+ls -l /etc/cups/ppd/
+locate *.ppd
+locate "*.ppd"
+pacman -Qs print
+locate -i phaser
+locate -i xerox
+sudo vim /etc/cups/printers.conf
+c
+locate lanier
+locate lanier-mp
+cd
+c
+cd code/pipeline
+cd pipeline
+git log
+git fetch
+git st
+git merge
+git merge origin/master
+git log
+c
+git fetch
+git merge origin/master
+git log
+c
+vim stage.r
+c
+cd
+c
+cd code/pipeline/pipeline
+git fetch
+git st
+git st origin/master
+c
+pacup
+c
+git fetch
+c
+cd
+c
+cd code/pipeline/pipeline
+git pull --rebase
+vim TODO
+git add TODO
+git commit -m 'Updated TODO with ideas for ensemble selection.'
+git push
+c
+cdc
+cd
+c
+pwd
+pacup
+pacman -Ss ghc
+pacr haskell-opengl
+pacup
+c
+pacup
+c
+pacman -Ss haskell-pla
+c
+man mplayer
+c
+pacup
+c
+vimcup
+pacup
+c
+pacup
+c
+pacup]
+pacup
+c
+mv virtualenvwrapper-3.0.1.tar.gz tmp
+cd tmp
+tar xzf virtualenvwrapper-3.0.1.tar.gz virtualenvwrapper-3.0.1/
+cd virtualenvwrapper-3.0.1
+vim setup.py
+vim setup.cfg
+pacup
+c
+cd ~/competitions/hewlett
+..
+mv hewlett/ /extra/ajfrank2/competition/
+c
+ls
+cd /extra/ajfrank2/competition
+cd hewlett
+mkdir rawdata
+mv * rawdata
+cd rawdata
+unzip Essay_Set_Descriptions.zip
+ls
+unzip Training_Materials.zip
+vim training_set_rel3.tsv
+c
+ls
+vim training_set_rel3
+firefox training_set_rel3
+rm training_set_rel3
+c
+ls
+..
+git clone git://git@github.com/doobwa/pipeline
+git clone git@github.com:doobwa/pipeline.git
+ls
+cd pipeline
+..
+source pipeline/startup
+ls
+cd pipeline
+vim compute.r
+..
+pipeline init
+chmod +x pipeline/pipeline
+pipeline init
+ls
+c
+ls
+ls features
+vim features/basic.py
+vim features/basic.py
+c
+ls
+vim pipeline/compute.r
+vim features/basic.py
+vim features/basic.py
+ls
+vim features/basic.py
+mkvirtualenv hewlett
+rmvirtualenv hewlett
+deactivate
+rmvirtualenv hewlett
+mkvirtualenv -p python2
+mkvirtualenv -p python2 hewlett
+c
+toggleglobalsitepackages
+pip install pandas
+c
+ls
+vim features/basic.py
+ipython
+ipython2
+c
+c
+ls
+vim pipeline/pipeline
+ls splits
+ls pipeline/splits
+pipeline split kfold 5 rawdata/training_set_rel3.tsv
+R
+c
+pipeline split kfold 5 rawdata/training_set_rel3.tsv
+wc
+R
+vim pipeline/splits/kfold
+pipeline split kfold rawdata/training_set_rel3.tsv 5
+git diff -p | awk '$1=="diff" {file=substr($3,3)} $1=="old" {old=substr($3,4)} $1=="new" {new=substr($3,4); print old, file}'
+cd pipeline
+git diff -p | awk '$1=="diff" {file=substr($3,3)} $1=="old" {old=substr($3,4)} $1=="new" {new=substr($3,4); print old, file}'
+git diff -p | awk '$1=="diff" {file=substr($3,3)} $1=="old" {old=substr($3,4)} $1=="new" {new=substr($3,4); print old, file}' | xargs -L 1 chmod
+c
+..
+ls splits
+rm -rf splits/5fold
+c
+pipeline split kfold rawdata/training_set_rel3.tsv 5
+c
+ls
+ls splits/5fold/1/train
+ls splits/5fold/1/train/data
+vim splits/5fold/1/train/data
+c
+vim splits/5fold/1/train/data
+vim splits/5fold/1/train/data
+vim features/basic.py
+vim ~/.virtualenvs/hewlett/lib/python2.7/site-packages/pandas/core/format.py
+vim ~/.virtualenvs/hewlett/lib/python2.7/site-packages/pandas/core/strings.py
+vim ~/.virtualenvs/hewlett/lib/python2.7/site-packages/pandas/core/format.py
+vim ~/.virtualenvs/hewlett/lib/python2.7/site-packages/pandas/core/common.py
+c
+vim features/basic.py
+c
+cd
+c
+c
+ls
+locate review
+c
+ls
+vim eurasip
+c
+pacup
+c
+c
+pacup
+c
+deactivate
+c
+c
+cd
+c
+c
+ls
+c
+alsamixer
+c
+R
+c
+ipython2 --pylab
+c
+pacup
+c
+top
+c
+cd code/coreutils
+git br
+bit co master
+git co master
+git st
+git fetch
+git st
+git merge origin/master
+c
+git co numsort
+git rebase origin/master
+c
+git log
+c
+ls
+cd src
+vim sort.c
+c
+exit
+screen -x pts-0.ajfrank
+exit
+cd research/mhtEM
+cd exp_bp
+./ismarg.py
+workon mht
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+c
+./ismarg.py ../exp_em/scenes/scene00.p
+c
+./ismarg.py ../exp_em/scenes/scene00.p
+python -m pdb ./ismarg.py ../exp_em/scenes/scene00.p
+c
+c
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+c
+./ismarg.py ../exp_em/scenes/scene00.p
+c
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+c
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+c
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+c
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+c
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+c
+c
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+c
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+c
+c
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+c
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+c
+./ismarg.py ../exp_em/scenes/scene00.p
+c
+./ismarg.py ../exp_em/scenes/scene00.p
+kernprof.py
+kernprof.py -l ismarg.py -o ismarg.prof ../exp_em/scenes/scene00.p
+kernprof.py -l -o ismarg.prof ismarg.py ../exp_em/scenes/scene00.p
+python -m line_profiler ismarg.prof
+c
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py ../exp_em/scenes/scene00.p
+kernprof.py -l -o ismarg.lprof ismarg.py ../exp_em/scenes/scene00.p
+python -m line_profiler ismarg.lprof
+python -m cProfile -o ismarg.prof ismarg.py ../exp_em/scenes/scene00.p
+python -m cProfile -o ismarg.prof ismarg.py ../exp_em/scenes/scene00.p
+runsnake ismarg.prof
+python -m cProfile -o ismarg.prof ismarg.py ../exp_em/scenes/scene00.p
+runsnake ismarg.prof
+c
+runsnake ismarg.prof
+python -m cProfile -o ismarg.prof ismarg.py ../exp_em/scenes/scene00.p
+runsnake ismarg.prof
+c
+python -m cProfile -o ismarg.prof ismarg.py ../exp_em/scenes/scene00.p
+runsnake ismarg.prof
+c
+python -m cProfile -o ismarg.prof ismarg.py ../exp_em/scenes/scene00.p
+runsnake ismarg.prof
+c
+runsnake ismarg.prof
+c
+./ismarg.py ../exp_em/scenes/scene00.p
+c
+./ismarg.py ../exp_em/scenes/scene00.p
+c
+time ./ismarg.py ../exp_em/scenes/scene00.p
+c
+c
+time ./ismarg.py ../exp_em/scenes/scene00.p
+c
+time ./ismarg.py ../exp_em/scenes/scene00.p
+time ./ismarg.py ../exp_em/scenes/scene00.p
+time ./ismarg.py ../exp_em/scenes/scene00.p
+time ./ismarg.py ../exp_em/scenes/scene00.p
+./ismarg.py --scene ../exp_em/scenes/scene00.p -n 3
+./ismarg.py --scene ../exp_em/scenes/scene00.p -n 3
+c
+./ismarg.py --scene ../exp_em/scenes/scene00.p -n 3
+python -m pdb ./ismarg.py --scene ../exp_em/scenes/scene00.p -n 3
+c
+python -m pdb ./ismarg.py --scene ../exp_em/scenes/scene00.p -n 3
+c
+./ismarg.py --scene ../exp_em/scenes/scene00.p -n 3
+c
+./ismarg.py --scene ../exp_em/scenes/scene00.p -n 3
+c
+./ismarg.py --scene ../exp_em/scenes/scene00.p -n 3 -o -
+c
+./ismarg.py --scene ../exp_em/scenes/scene00.p -n 1 -o supdawg
+cat supdawg
+rm supdawg
+python
+c
+seq 360
+c
+ls
+mkdir samples
+c
+rsync -ua * /extra/ajfrank2/research/mhtEM/exp_bp
+cd /extra/ajfrank2/research/mhtEM/exp_bp
+cd /extra/ajfrank2/research/mhtEM/exp_bp
+cd /extra/ajfrank2/research/mhtEM/exp_bp/samples/*
+c
+ls
+vim ismarg.
+rm *prof
+vim ismarg.py
+vim ismarg.py
+diff ismarg.py blah
+rm blah
+vim ismarg.py
+c
+ls
+cd samples
+vim DESC
+..
+mv samples/DESC samples_nomodifier
+cd samples
+vim DESC
+ls
+rm 3
+cat Des
+cat DESC
+c
+..
+mv samples samples_2
+mv samples_nomodifier samples_1
+c
+ls
+vim samples_2/DESC
+c
+ls
+mkdir samples
+c
+vim samples_2/DESC
+c
+ls
+wc -l samples_1/all.txt
+ls
+cd samples
+cat * >all.txt
+c
+..
+\rm -rf samples
+mkdir samples_
+mv samples_ samples
+c
+vim ismarg.py
+c
+head samples/all.txt
+top
+free -m
+sudo pmap -x `pidof /usr/bin/X`
+pidof X
+pidof Xorg
+sudo pmap -x `pidof Xorg`
+sudo pmap -x `pidof Xorg` L
+top
+c
+uptime
+man pstat
+c
+man pmap
+sudo pmap -x `pidof Xorg` L
+top
+c
+top
+c
+ps -e G chrom
+ps -e G chrom
+c
+exit
+locate rcpp
+cd competitions/student-answer-models
+locate -i rcpp
+c
+cd -
+cd research/mhtEM
+c
+ls
+grep -i uai *
+vim mht.py
+vim tomht.py
+c
+cat /extra/ajfrank2/research/mhtEM/exp_bp/samples/scene00_01.txt
+c
+ssh dl1
+ssh dl12
+c
+exit
+cd research/mhtEM/exp_bp
+cd ../exp_em
+workon mht
+./view.py scenes/scene00.p
+exit
+cd research/mhtEM/exp_bp
+ls
+vim ismarg.p
+vim ismarg.py
+c
+vim ismarg.py
+c
+vim ismarg.py
+c
+git add ismarg.py
+git st
+git commit -m 'Added importance sampler for the true posterior.'
+c
+cd
+cd research/mplp_rounding
+c
+ls
+vim mplp.cpp
+c
+vim mplp.cpp
+vim mplp.cpp
+vim ../mhtEM/tomht.py
+c
+cd ~/research/mhtEM/exp_bp
+vim ismarg.
+vim ismarg.p
+vim ismarg.py
+cd /extra/ajfrank2/research/mhtEM/exp_bp
+vim ismarg.py
+ls
+c
+ls
+vim ismarg.py
+c
+ls
+cd samples
+cat * >all.txt
+c
+ls -l all*
+c
+ls
+..
+mv samples samples_3
+vim samples_3/DESC
+c
+vim ismarg.py
+c
+mkdir samples
+cd
+c
+cd research
+c
+ls
+mkdir outline
+cd outline
+vim outline.tex
+c
+ls
+..
+c
+ls
+mkdir thesis
+c
+cd thesis
+vim outline.tex
+cp ../outline/outline.tex .
+vim outline.tex
+c
+ls
+..
+cd mhtEM/exp_bp
+vim ismarg.p
+vim ismarg.py
+vim ismarg.py
+c
+c
+cd /extra/ajfrank2/research/mhtEM/
+vim ismarg.py
+cd exp_bp
+vim ismarg.py
+c
+ls
+ls -lt samples
+cd samples
+cat * >all.txt
+c
+ls
+..
+vim ismarg.py
+c
+python
+python2
+c
+./view.py scenes/scene00.p
+workon mht
+./view.py scenes/scene00.p
+./view.py ../exp_em/scenes/scene00.p
+cd ../exp_em
+./view.py ../exp_em/scenes/scene00.p
+cd ../exp_bp
+vim ismarg.py
+vim ismarg.py
+exit
+exit
+cd research/mhtEM/exp_bp
+workon mht
+ipython2
+pkgfile
+man pkgfile
+locate pkgfile
+pkgfile pkgfile
+pkg adbpng
+pkgfile advpng
+pkgfile adbpng
+pkgfile advpng
+locate advpng
+pacaur -Ss advpng
+c
+pacman -Ss libpng
+pacaur -Ss libpng
+c
+ipython2
+ipython2 --pylab
+ipython2 -h
+ipython2 -h L
+ipython2 --pylab
+ipython2 --pylab
+cd /extra/ajfrank2/research/mhtEM/exp_bp
+ipython2 --pylab
+exit
+exit
+cd music
+mplayer -loop 0 -ao pulse rainymood.ogg
+exit
+c
+cd music
+mplayer -ao pulse -loop 0 bit.trip/01\ Blackout\ City\ \(feat.\ Anamanaguchi\).mp3
+mplayer -ao pulse -loop 0 -volume 10 bit.trip/01\ Blackout\ City\ \(feat.\ Anamanaguchi\).mp3
+c
+mplayer -ao pulse -loop 0 -volume 10 bit.trip/01\ Blackout\ City\ \(feat.\ Anamanaguchi\).mp3
+mplayer -ao pulse -loop 0 -volume 10 bit.trip/02\ Impetus.mp3
+top
+mplayer -ao pulse -loop 0 -volume 10 bit.trip/02\ Impetus.mp3
+c
+mplayer -ao pulse -loop 0 -volume 10 bit.trip/02\ Impetus.mp3
+c
+exit
+screen
+exit
+ssh dl2
+c
+ssh dl5
+c
+cd /extra/ajfrank2/research/mhtEM/exp_bp
+cd samples
+c
+ls
+cat * >all.txt
+wc -l all.txt
+c
+vim ../ismarg.py
+c
+exit
+c
+seq -w 24 | parallel --sshlogin 8/dl2,8/dl3,8/dl4 -j +0 'source ~/.virtualenvs/mht/bin/activate; cd /extra/ajfrank2/research/mhtEM/exp_bp; ./ismarg.py --scene ../exp_em/scenes/scene00.p -n 360 -o samples/scene00_{}.txt'
+seq -w 200 | parallel --sshlogin 8/dl2,8/dl3,8/dl4,8/dl5 -j +0 'source ~/.virtualenvs/mht/bin/activate; cd /extra/ajfrank2/research/mhtEM/exp_bp; ./ismarg.py --scene ../exp_em/scenes/scene00.p -n 360 -o samples/scene00_{}.txt'
+c
+pwd
+seq -w 300 | parallel --sshlogin 8/dl2,8/dl3,8/dl4,8/dl5 -j +0 'source ~/.virtualenvs/mht/bin/activate; cd /extra/ajfrank2/research/mhtEM/exp_bp; ./ismarg.py --scene ../exp_em/scenes/scene00.p -n 360 -o samples/scene00_{}.txt'
+seq -w 200 | parallel --sshlogin 8/dl2,8/dl3,8/dl4,8/dl5 -j +0 'source ~/.virtualenvs/mht/bin/activate; cd /extra/ajfrank2/research/mhtEM/exp_bp; ./ismarg.py --scene ../exp_em/scenes/scene00.p -n 360 -o samples/scene00_{}.txt'
+c
+ssh dl5
+ssh dl5
+c
+cd -
+popd
+popd
+cd -
+c
+c
+seq -w 100 | parallel --sshlogin 8/dl2,8/dl3,8/dl4,8/dl5 -j +0 'source ~/.virtualenvs/mht/bin/activate; cd /extra/ajfrank2/research/mhtEM/exp_bp; ./ismarg.py --scene ../exp_em/scenes/scene00.p -n 360 -o samples/scene00_{}.txt'
+t
+c
+exit
+c
+free -m
+sudo pmap -x `pidof Xorg`
+sudo pmap -x `pidof Xorg` L
+c
+exit
+top
+c
+pmap -x Xorg
+pmap -x `pidof Xorg`
+pmap `pidof Xorg`
+pmap -x Xorg
+top
+c
+man pmap
+pmap -x `pidof Xorg`
+sudo pmap -x `pidof Xorg`
+sudo pmap -x `pidof Xorg` L
+pacup
+c
+top
+free
+free -h
+free -g
+free -m
+top
+c
+pac xrestop
+xrestop
+c
+man xrestop
+sudo xrestop
+c
+top
+c
+pacman -Ql xorg
+pacman -Ql Xorg
+pacman -Ql X
+pacman -Qi Xorg
+pacman -Qi X11
+pacman -Qi X
+pacman -Qi xorg-server
+uptime
+c
+top
+c
+top
+top
+c
+exit
+cd /extra/ajfrank2/research/mhtEM/exp_bp/samples
+cd ../samples_1
+workon ht
+workon mht
+ipython --pylab
+ipython2 --pylab
+c
+exit
+c
+cd
+c
+sudo vim /usr/share/xsessions/xmonad.desktop
+sudo vim /usr/share/xsessions/just_xmonad.desktop
+c
+exit
+top
+c
+sudo pmap -x `pidof Xorg` L
+c
+sudo pmap -x `pidof Xorg` L
+c
+echo $LANG
+echo $LC_ALL
+echo $LC_COLLATE
+exit
+exit
+exit
+cd /extra/ajfrank2/research/mhtEM/exp_em
+git st
+c
+ls
+ls ../tomht.py
+c
+exit
+ls
+cd research/mhtEM
+c
+c
+cd exp_bp
+c
+ls
+c
+ls
+scd
+rsync -ua /extra/ajfrank2/research/mhtEM/exp_bp/* .
+ls
+c
+ls
+ls scenes
+rm scenes/*
+c
+ls
+vim gendata
+cd ../exp_em
+ls
+c
+ls
+vim gendata.py
+ls /extra/ajfrank2/research/mhtEM/exp_em
+cd -
+vim /extra/ajfrank2/research/mhtEM/exp_em/gendata.py
+diff /extra/ajfrank2/research/mhtEM/exp_em/gendata.py gendata
+vim gendata
+vim gendata
+diff /extra/ajfrank2/research/mhtEM/exp_em/gendata.py gendata
+vim gendata
+vim ../exp_em/gendata.py
+vim /extra/ajfrank2/research/mhtEM/exp_em/gendata.py
+vim gendata
+vim gendata
+vim /extra/ajfrank2/research/mhtEM/exp_em/gendata.py
+c
+meld gendata /extra/ajfrank2/research/mhtEM/exp_em/gendata.py
+c
+cat ../exp_em/scenes/params
+c
+ls
+ls results
+ls models
+c
+ls
+sudo pmap -x `pidof Xorg` L
+top
+top
+c
+top
+c
+ls
+cat ../exp_em/scenes/params
+c
+ls
+cp ../exp_em/scenes scenes/*
+cp ../exp_em/scenes scenes/
+rsync -ua ../exp_em/scenes scenes/
+rsync -ua ../exp_em/scenes/* scenes/
+cd scenes
+rm -rf scene
+rm -rf scenes
+c
+ls
+..
+c
+ls
+..
+git st
+c
+rm tuesday.npy
+c
+ls
+ls tomht.py
+c
+diff tomht.py /extra/ajfrank2/research/mhtEM/tomht.py
+diff homht.py /extra/ajfrank2/research/mhtEM/homht.py
+c
+git info
+git st
+git remotes
+git remote -v
+c
+cd /extra/ajfrank2/research/mhtEM
+c
+ls
+cd exp_bp
+ls scenes
+rm scenes/*
+rsync -ua ../exp_em/scenes/* scenes
+c
+ls
+vim run
+vim run
+vim ../mht.py
+diff ../mht.py ~/research/mhtEM/mht.py
+vim ../tomht.py
+vim ../mht.py
+c
+ls
+ls ../exp_em
+vim ../exp_em/run.py
+c
+ls
+rp ../exp_em/run emrun
+ls
+..
+c
+ls
+mv exp_bp exp_bp_old
+mkdir exp_bp
+cd exp_bp
+ls ../exp_em
+mv ../exp_em/gendata.py .
+mv ../exp_em/__init__.py .
+mv ../exp_em/run* .
+ls
+mv * ../exp_em
+cp ../exp_em/gendata.py .
+cp ../exp_em/__init__.py .
+cp ../exp_em/runitall.sh .
+cp ../exp_em/runmore.sh .
+cp ../exp_em/run.py .
+c
+ls
+cp -R ../exp_em/scenes .
+c
+ls ../exp_em/servers
+cp -R ../exp_em/servers .
+cp -R ../exp_em/view.py .
+c
+ls
+chmod +x gendata.py view.py runmore.sh runitall.sh run.py
+c
+ls
+cat servers
+c
+ls
+vim runmore.sh
+vim runitall.sh
+ls
+c
+ls
+mv ../exp_bp_old old
+c
+ls
+vim old/run
+vim run.py
+vim run.py
+c
+ls
+vim run.py
+mkdir results
+.run.py
+./run.py
+workon mht
+./run.py
+ls -l ~/.virtualenvs/mht/lib/python2.7/site-packages
+ls -l ~/.virtualenvs/mht/lib/python2.7/site-packages
+vim ~/.virtualenvs/mht/lib/python2.7/site-packages/mtt.egg-link
+c
+ls
+./run.py
+./run.py --alg tomht --nscan_n 4 scenes/scene00.p
+ls -l results
+./view.py scenes/scene00.p results/scene00_tomht_4_.p
+c
+ls
+vim run.py
+./run.py --alg tomht --nscan_n 4 scenes/scene00.p
+vim run.py
+./run.py --alg tomht --nscan_n 4 scenes/scene00.p
+exit
+R
+c
+exit
+cd code/coreutils
+make
+vim Makefile
+find . -name 'Makefile'
+cd lib
+vim Makefile
+make
+vim math.h
+..
+make
+vim lib/math.h
+vim lib/math.h
+vim lib/Makefile
+c
+top
+c
+vim lib/math.h
+make
+vim lib/math.h
+vim lib/Makefile
+vim lib/Makefile
+c
+vim README-hacking
+ls
+vim bootstrap
+vim bootstrap
+vim bootstrap
+./bootstrap --gnulib-srcdir=~/code/coreutils/gnulib
+./bootstrap --gnulib-srcdir=/home/drew/code/coreutils/gnulib
+./configure
+make
+vim src/join.c
+c
+make
+vim src/join.c
+make
+vim src/join.c
+make
+c
+vim README-hacking
+vim README
+make check TESTS=misc/join VERBOSE=yes
+cd tests
+make check TESTS=misc/join VERBOSE=yes
+make check TESTS=misc/join VERBOSE=yes
+git br
+vim misc/join
+vim misc/join
+make check TESTS=misc/join VERBOSE=yes
+vim misc/join
+make check TESTS=misc/join VERBOSE=yes
+vim misc/join
+make check TESTS=misc/join VERBOSE=yes
+vim misc/join
+make check TESTS=misc/join VERBOSE=yes
+vim misc/join
+make check TESTS=misc/join VERBOSE=yes
+..
+vim src/join.c
+make
+cd tests
+make check TESTS=misc/join VERBOSE=yes
+ls
+vim foo
+..
+src/join -n tests/foo tests/foo
+src/join -n tests/foo tests/foo > blah
+vim blah
+rm blah
+vim src/join.c
+c
+make
+cd tests
+rm foo
+vim misc/join
+make check TESTS=misc/join VERBOSE=yes
+vim misc/join.log
+vim misc/join
+make check TESTS=misc/join VERBOSE=yes
+vim misc/join
+c
+..
+vim foo
+src/join foo bar
+vim bar
+vim src/join.c
+src/join -n foo bar
+src/join -n foo bar
+c
+vim tests/misc/join
+cd tests
+make check TESTS=misc/join VERBOSE=yes
+vim misc/join.log
+c
+..
+make check
+vim README
+cd tests
+make check TESTS=misc/join VERBOSE=yes
+..
+make
+cat foo
+cat bar
+src/join -n foo bar
+vim tests/misc/join
+cd tests
+make check TESTS=misc/join VERBOSE=yes
+vim misc/join
+make check TESTS=misc/join VERBOSE=yes
+vim misc/join
+make check TESTS=misc/join VERBOSE=yes
+vim misc/join
+make check TESTS=misc/join VERBOSE=yes
+vim misc/join
+make check TESTS=misc/join VERBOSE=yes
+vim Makefile
+c
+ls
+make check TESTS=misc/join VERBOSE=yes
+vim Makefile
+vim ../README
+c
+ls
+vim COREUTES
+c
+ls
+vim Makefile
+vim misc/join
+c
+ls
+..
+find . -name 'join'
+vim src/join.c
+make
+c
+cd tests
+make check TESTS=misc/join VERBOSE=yes
+vim misc/join.log
+vim misc/join
+make check TESTS=misc/join VERBOSE=yes
+vim misc/join.log
+..
+src/join -n foo bar
+cat tests/misc/join.log
+src/join -n foo bar
+c
+ls
+cd tests
+c
+ls
+vim test-suite.log
+vim misc/join
+perl
+man perl
+vim misc/join
+..
+vim src/join.c
+make
+cd tests
+make check TESTS=misc/join VERBOSE=yes
+c
+..
+vim src/join.c
+find . -name 'numcompare.h'
+vim src/join.c
+find . -name strnumcmp.h
+vim lib/strnumcmp
+vim lib/strnumcmp.h
+vim lib/strnumcmp.c
+vim lib/strnumcmp-in.h
+c
+vim tests/misc
+vim tests/misc/join
+vim src/join.c
+make
+src/join -n foo bar
+src/join -n foo bar
+vim src/join.c
+make
+src/join -n foo bar
+LANG=c src/join -n foo bar
+cd tests
+vim tests/misc/join
+vim misc/join
+cd misc
+grep -i locale *
+vim cut
+c
+vim sort
+grep -i locale *
+vim seq
+c
+..
+..
+LANG=c src/join -n foo bar
+src/join -n foo bar
+cp foo foo2
+cp bar bar2
+vim foo2
+vim bar2
+src/join -n foo bar
+src/join -n foo2 bar2
+vim /etc/locale.gen
+sudo vim /etc/locale.gen
+LANG=en_US src/join -n foo bar
+LANG=es_ES src/join -n foo bar
+LANG=es_ES src/join -n foo2 bar2
+sudo locale-gen
+LANG=es_ES src/join -n foo2 bar2
+c
+cd
+c
+exit
+c
+ls
+cd code/coreutils
+cd tests
+cd misc
+grep -i locale *
+vim sort-unique
+vim cut
+vim cut
+vim cut
+c
+c
+vim join
+make check TESTS=misc/join VERBOSE=yes
+..
+make check TESTS=misc/join VERBOSE=yes
+..
+c
+make
+git br
+git st
+git add src/join.c tests/misc/join
+git gui
+c
+git diff src/join.c
+git dc src/join.c
+vim src/join.c
+make
+c
+git add src/join.c tests/misc/join
+git dc src/join.c
+c
+git st
+git log
+git commit --amend
+vim tests/misc/join
+git add tests/misc/join
+git dc tests/misc/join
+c
+git add tests/misc/join
+git commit --amend
+c
+git br
+git co master
+git fetch
+git co numsort
+git st
+git format-patch --stdout -1 >join.numeric.sort.diff
+rm join.numeric.sort.diff
+git format-patch --stdout -1 >join.numeric.sort.diff
+vim join.numeric.sort.diff
+git log
+git log -v
+git log --long
+git log --full
+c
+ls
+git log -l
+git help log
+git log --notes
+git log
+git log --notes
+git help log
+git log --pretty=full
+git log
+git commit --amend
+git log
+c
+git format-patch --stdout -1 >join.numeric.sort.diff
+rm join.numeric.sort.diff
+git format-patch --stdout -1 >join.numeric.sort.diff
+vim join.numeric.sort.diff
+c
+git help format-patch
+git log
+c
+ls
+vim README
+vim README-hacking
+vim HACKING
+make syntax-check
+vim src/join.c
+make syntax-check
+git commit --amend
+git add src/join.c
+git commit --amend
+c
+rm join.numeric.sort.diff
+git format-patch --stdout -1 >join.numeric.sort.diff
+c
+vim HACKING
+vim src/join.c
+vim doc/coreutils.texi
+make
+man info
+ls -lt doc
+vim doc/coreutils.info
+c
+git commit --amend -a
+rm join.numeric.sort.diff
+git format-patch --stdout -1 >join.numeric.sort.diff
+c
+make
+git br
+vim src/sort.c
+vim foo
+vim bar
+src/join -n foo bar
+vim foo
+vim bar
+vim src/sort.c
+src/join -n foo bar
+exit
+exit
+exit
+c
+exit
+c
+ls
+exit
+cd code/coreutils
+cat foo
+cat foo2
+vim foo2
+src/join foo foo2
+src/join -n foo foo2
+man src
+man join
+src/join --check-order foo foo2
+src/join --check-order -n foo foo2
+vim src/join.c
+make
+src/join --check-order -n foo foo2
+cat foo
+cat fo2
+cat foo2
+LANG=c src/join foo foo2
+LANG=en_UTF-8 src/join foo foo2
+echo $LANG
+LANG=en_US.UTF-8 src/join foo foo2
+LANG=en_US.UTF-8 src/join foo foo2
+src/join --check-order -n foo foo2
+src/join --check-order -n foo foo2
+vim src/join.c
+man join
+vim src/join.c
+vim
+make
+src/join --check-order -n foo foo2
+vim src/join.c
+vim src/join.c
+make
+src/join --check-order -n foo foo2
+vim foo
+src/join --check-order -n foo foo2
+vim foo
+src/join --check-order -n foo foo2
+vim src/join.c
+vim join.numeric.sort.diff
+vim src/join.c
+make
+src/join --check-order -n foo foo2
+vim src/join.c
+make
+src/join --check-order -n foo foo2
+src/join -n foo foo2
+rm join.numeric.sort.diff
+git format-patch --stdout -1 >join.numeric.sort.diff
+rm join.numeric.sort.diff
+git commit -a --amend
+git format-patch --stdout -1 >join.numeric.sort.diff
+c
+exit
+cd /extra/ajfrank2/research/mhtEM
+c
+echo $TERM
+echo $DISPLAY
+xeyes
+feh
+c
+ls
+pkgfile xclock
+pac xorg-xclock
+xclock
+c
+echo $DISPLAY
+DISPLAY=localhost:10.0 xclock
+echo $DISPLAY
+echo $DISPLAY
+DISPLAY=localhost:10.0 xclock
+ls -l ~/.Xauthority
+whoami
+c
+ls
+c
+\
+ $DISPLAY
+echo $DISPLAY
+unset XAUTHORITY
+DISPLAY=localhost:10.0 xclock
+c
+echo $IDSPLAY
+echo $DISPLAY
+exit
+c
+cd research/mhtEM/exp_bp
+workon mht
+ipython2 --pylab
+exit
+c
+screen -x pts-13.ajfrank
+screen -x pts-3.ajfrank
+c
+screen -x pts-6.ajfrank
+screen -x pts-8.ajfrank
+echo $DISPLAY
+screen -x pts-8.ajfrank
+xclock
+echo $DISPLAY
+screen -x pts-8.ajfrank
+c
+screen -x pts-8.ajfrank
+c
+echo $DISPLAY
+screen
+c
+screen -x pts-13.ajfrank
+exit

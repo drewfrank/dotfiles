@@ -2,14 +2,14 @@ xft.dpi:    96
 xft.hintstyle: hintslight
 xft.autohinting: 1
 xft.antialias: 1
-xft.rgba: rgb
+xft.rgba: none
 Xcursor*theme:    Vanilla-DMZ-AA
 Xcursor.size: 22
 
 ! urxvt.font: -*-terminus-*-*-*-*-12-*-*-*-*-*-*-*
 ! urxvt.font: xft:liberation mono:size=10:antialias=true:hinting=false
-urxvt.font: xft:consolas:size=9:antialias=true:hinting=true
-! urxvt.font: xft:inconsolata-g:size=10:antialias=true:hinting=true
+! urxvt.font: xft:consolas:size=9:antialias=true:hinting=true
+urxvt.font: xft:inconsolata-g:size=8:antialias=true:hinting=true
 
 urxvt*geometry:         80x25
 urxvt*saveLines:        8192 

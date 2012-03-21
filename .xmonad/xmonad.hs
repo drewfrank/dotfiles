@@ -1,4 +1,4 @@
---import XMonad
+import System.Environment
 import System.Exit
  
 --import qualified XMonad.StackSet as W
@@ -14,12 +14,14 @@ import XMonad.Layout.DwmStyle
 
 -----------------------------
 
-import XMonad
-import XMonad.Layout
+import XMonad hiding ( (|||) )
+import XMonad.Layout hiding ( (|||) )
 import XMonad.Operations
 import XMonad.Hooks.DynamicLog
 import XMonad.Hooks.ManageDocks
+import XMonad.Hooks.ManageHelpers
 import XMonad.Actions.DwmPromote
+import XMonad.Hooks.ManageHelpers
 import XMonad.Hooks.UrgencyHook
 import XMonad.Hooks.Place
 import XMonad.Prompt
@@ -38,6 +40,7 @@ import Data.Ratio ((%))
 import System.IO
 
 import XMonad.Layout.WindowNavigation
+import XMonad.Layout.LayoutCombinators
 import XMonad.Layout.SimplestFloat
 import XMonad.Layout.IM
 import XMonad.Layout.Grid
@@ -53,11 +56,10 @@ import Data.List
 import XMonad.Layout.ThreeColumns
 
 main = do
-    spawn rightBar
-    din <- spawnPipe myStatusBar
---      spawn middleBar
+    host <- runProcessWithInput "hostname" [] []
+    spawn $ rightBar host
+    din <- spawnPipe $ myStatusBar host
     
-    sp <- mkSpawner
     xmonad $ withUrgencyHook NoUrgencyHook $ defaultConfig {
       -- simple stuff
         terminal            = myTerminal,
@@ -67,7 +69,7 @@ main = do
         focusedBorderColor  = myFocusedBorderColor,
  
       -- key bindings
-        keys                = myKeys sp,
+        keys                = myKeys,
         mouseBindings       = myMouseBindings,
  
       -- hooks, layouts
@@ -116,7 +118,8 @@ myManageHook = composeAll . concat $
     , [ fmap (isPrefixOf c) title --> doFloat | c <- myFloatTitles ]
     , [ resource  =? "desktop_window" --> doIgnore ]
     , [ resource  =? "kdesktop"       --> doIgnore ] 
-    , [ manageDocks ] ]
+    , [ manageDocks ] 
+    , [ isFullscreen --> doFullFloat ] ]
     where 
         myFloatClasses = ["TopLevelShell","com-mathworks-util-PostVMInit","ipython","Ipython","feh","Gimp","bpython","Bpython"]
         myFloatTitles = ["Figure","R Graphics"]
@@ -134,10 +137,10 @@ myStartupHook = setWMName "LG3D"
 
 ------------------------------------------------------------------------
 -- Key bindings. Add, modify or remove key bindings here.
-myKeys sp conf@(XConfig {XMonad.modMask = modMask}) = M.fromList $
+myKeys conf@(XConfig {XMonad.modMask = modMask}) = M.fromList $
     -- application management
     [ ((modMask, xK_Return), spawn $ XMonad.terminal conf)                          -- launch a terminal
-    , ((modMask,               xK_space ), shellPromptHere sp defaultXPConfig { position = Bottom })
+    , ((modMask,               xK_space ), shellPromptHere defaultXPConfig { position = Bottom })
     , ((modMask .|. shiftMask, xK_c     ), kill)                                    -- close focused window 
     , ((modMask .|. shiftMask, xK_z     ), spawn "xscreensaver-command -lock")
     -- mpd / audio stuff
@@ -150,12 +153,13 @@ myKeys sp conf@(XConfig {XMonad.modMask = modMask}) = M.fromList $
     , ((modMask,                xK_Tab  ), sendMessage NextLayout)
     , ((modMask .|. shiftMask,  xK_n    ), setLayout $ XMonad.layoutHook conf)      -- reset layout
     , ((modMask,                xK_n    ), refresh)                                 -- reset sizes
---      , ((mod1Mask,               xK_b    ), sendMessage ToggleStruts)
+    , ((mod1Mask,               xK_b    ), sendMessage ToggleStruts)
     , ((modMask .|. controlMask, xK_h    ), sendMessage Shrink)
     , ((modMask .|. controlMask, xK_l    ), sendMessage Expand)
     , ((modMask,                xK_t    ), withFocused $ windows . W.sink)          -- re-tile window
     , ((modMask,                xK_comma), sendMessage (IncMasterN 1))
     , ((modMask,                xK_period), sendMessage (IncMasterN (-1)))
+    , ((modMask .|. shiftMask, xK_f     ), sendMessage $ JumpToLayout "Full")
 
     -- window navigation
     , ((modMask,                xK_j    ), sendMessage $ Go D)
@@ -171,7 +175,7 @@ myKeys sp conf@(XConfig {XMonad.modMask = modMask}) = M.fromList $
  
     -- Xmonad
     , ((modMask .|. shiftMask, xK_q     ), io (exitWith ExitSuccess))
-    , ((modMask              , xK_q     ), spawn "killall conky" >> restart "xmonad" True)
+    , ((modMask              , xK_q     ), spawn "killall conky && killall trayer" >> restart "xmonad" True)
     ]
     ++
  
@@ -195,15 +199,21 @@ myKeys sp conf@(XConfig {XMonad.modMask = modMask}) = M.fromList $
 myMouseBindings (XConfig {XMonad.modMask = modMask}) = M.fromList $
     [ ((modMask, button1), (\w -> focus w >> mouseMoveWindow w))
     , ((modMask, button2), (\w -> focus w >> windows W.swapMaster))
-    , ((modMask, button3), (\w -> focus w >> mouseResizeWindow w))
+    , ((modMask .|. shiftMask, button1), (\w -> focus w >> mouseResizeWindow w))
+--    , ((modMask, button3), (\w -> focus w >> mouseResizeWindow w))
     ]
 
 ------------------------------------------------------------------------
 -- dynamicLog pretty printer for dzen:
--- 420
-myStatusBar = "dzen2 -xs 1 -p 1 -x '0' -y '0' -h '" ++ barHeight ++ "' -w '500' -ta 'l' -fg '" ++ wsbarFg ++ "' -bg '" ++ wsbarBg ++ "' -fn '" ++ barFont ++ "'"
-rightBar = "conky | dzen2 -xs 1 -p 1 -e 'onstart=lower' -h '" ++ barHeight ++ "' -ta 'r' -fg '" ++ wsbarFg ++ "' -bg '" ++ wsbarBg ++ "' -fn '" ++ barFont ++ "'"
-middleBar = "conky -c /home/drew/.conky/conky-countdown | dzen2 -x '500' -w '300' -h '" ++ barHeight ++ "' -ta 'r' -fg '" ++ wsbarFg ++ "' -bg '" ++ wsbarBg ++ "' -fn '" ++ barFont ++ "'"
+
+myStatusBar host =
+	if host == "ajfrank"
+		then "dzen2 -xs 1 -p 1 -x '0' -y '0' -h '" ++ barHeight ++ "' -w '500' -ta 'l' -fg '" ++ wsbarFg ++ "' -bg '" ++ wsbarBg ++ "' -fn '" ++ barFont ++ "'"
+    	else "dzen2 -x '0' -y '0' -h '" ++ barHeight ++ "' -w '500' -ta 'l' -fg '" ++ wsbarFg ++ "' -bg '" ++ wsbarBg ++ "' -fn '" ++ barFont ++ "'"
+rightBar host =
+	if host == "ajfrank"
+		then "conky | dzen2 -xs 1 -p 1 -e 'onstart=lower' -h '" ++ barHeight ++ "' -ta 'r' -fg '" ++ wsbarFg ++ "' -bg '" ++ wsbarBg ++ "' -fn '" ++ barFont ++ "'"
+		else "conky | dzen2 -e 'onstart=lower' -h '" ++ barHeight ++ "' -ta 'r' -fg '" ++ wsbarFg ++ "' -bg '" ++ wsbarBg ++ "' -fn '" ++ barFont ++ "'"
 
 wsbarFg = "#f0f0ff"
 wsbarBg = "#0f0f0f"

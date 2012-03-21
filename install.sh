@@ -12,7 +12,7 @@ if [ $RESP != "y" ]; then
 fi
 
 for file in $(ls -A); do
-    if [ "$file" != "install.sh" ]; then
+    if [ "$file" != "install.sh" -a "$file" != ".git" ]; then
         if [ -e "$HOME/$file" -a ! -L "$HOME/$file" ]; then
             echo "Creating backup: $HOME/$file => $HOME/$file.bak"
             mv $HOME/$file $HOME/$file.bak

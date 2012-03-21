@@ -1,0 +1,35 @@
+[user]
+	name = Drew Frank
+	email = drewfrank@gmail.com
+[core]
+	autocrlf = input
+	safeclrf = true
+[color]
+    ui = auto
+[format]
+    pretty=format:%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset
+[alias]
+    aa = add --all
+    amend = commit --amend
+    b = branch
+    br = branch
+    ci = commit
+    co = checkout
+    dc = diff --cached
+    di = diff
+    ds = diff --stat
+    dump = cat-file -p
+    fa = fetch --all
+    ff = merge --ff-only
+    head = !git l -1
+    h = !git head
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+    la = !git l --all
+    l = log --graph --abbrev-commit --date=relative
+    noff = merge --no-ff
+    pom = push origin master
+    pullff = pull --ff-only
+    ra = !git r --all
+    r = !git l -20
+    st = status
+    type = cat-file -t

@@ -12,8 +12,6 @@ msgwait 2 # 1 second messages
 shell /bin/zsh
 
 caption always "%{= b}[ %{G}%H::$USER %{b}][ %=%{w}%?%-Lw%?%{b}(%{W}%n*%f %t%?(%u)%?%{b})%{w}%?%+Lw%?%= %{b} ][%{B} %Y.%m.%d %{b}]"
-#hardstatus alwayslastline "%{=b W}%{k} %= %w %=" 
-#%{= kb}
 
 activity "active: %n (%t) [%w:%s]"
 bell "bell: %n (%t) [%w:%s]^G"
@@ -28,15 +26,8 @@ termcapinfo xterm|xterms|xterm-color|screen|xs|rxvt* ti@:te@
 sorendition +b kG
 
 # Default apps
-#screen -t 'torrent' rtorrent
-#screen -t 'mail' mutt
-#screen -t 'rss' snownews -u
-#screen -t 'irc' irssi 
-#screen -t 'log'	sudo tail -f /var/log/messages.log
 screen -t 'zsh'
 
-
-#bind r screen -t 'torrent' rtorrent
 bind x screen -t 'zsh' 
 bind k
 bind W

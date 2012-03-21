@@ -23,13 +23,10 @@ filetype plugin indent on " required
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
-set history=50      " keep 50 lines of command line history
-set ruler       " show the cursor position all the time
-set showcmd     " display incomplete commands
-set incsearch       " do incremental searching
-
-" Don't use Ex mode, use Q for formatting
-map Q gq
+set history=1000
+set ruler        " show the cursor position all the time
+set showcmd      " display incomplete commands
+set incsearch    " do incremental searching
 
 " CTRL-U in insert mode deletes a lot.  Use CTRL-G u to first break undo,
 " so that you can undo CTRL-U after inserting a line break.
@@ -64,7 +61,7 @@ set scrolloff=3
 set showmode
 set showcmd
 set wildmenu
-set wildmode=full
+set wildmode=list:longest
 set wildignore=.svn,.git,.hg,*.o,*.a,*.class,*.so,*.swp,*.jpg,*.png,*.gif
 set laststatus=2
 set number

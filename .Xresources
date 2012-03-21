@@ -6,11 +6,10 @@ xft.rgba: rgb
 Xcursor*theme:    Vanilla-DMZ-AA
 Xcursor.size: 22
 
-! urxvt.font: -*-terminus-*-*-*-*-*-*-*-*-*-*-*-*
-urxvt.font: xft:inconsolata:size=8:antialias=true:hinting=true
-! urxvt.font: xft:deja vu sans mono:size=8:antialias=true:hinting=true
-! urxvt.font: -*-montecarlo-medium-*-*-*-*-*-*-*-*-*-*-*
-! urxvt.boldFont: -*-montecarlo-bold-*-*-*-*-*-*-*-*-*-*-*
+! urxvt.font: -*-terminus-*-*-*-*-12-*-*-*-*-*-*-*
+! urxvt.font: xft:liberation mono:size=10:antialias=true:hinting=false
+urxvt.font: xft:consolas:size=9:antialias=true:hinting=true
+! urxvt.font: xft:inconsolata-g:size=10:antialias=true:hinting=true
 
 urxvt*geometry:         80x25
 urxvt*saveLines:        8192 
@@ -20,9 +19,8 @@ urxvt*scrollBar_right:  true
 urxvt*background:       #222222
 urxvt*borderColor:      #222222
 urxvt*loginShell:       true
-! urxvt.borderLess:      true
 urxvt*transparent:	    false 
-urxvt*cutchars:         "()*,<>[]{}|'
+urxvt*cutchars:         "`\"()*',<>[]{|}"
 urxvt*print-pipe:       cat > $(echo urxvt.dump.`date +'%Y%M%d%H%m%S'`)
 urxvt*secondaryScroll:  true
 urxvt*mapAlert:         true
@@ -33,36 +31,7 @@ urxvt*urlLauncher:      firefox
 urxvt*matcher.button:   1
 urxvt*matcher.pattern.1:\\bwww\\.[\\w-]+\\.[\\w./?&@#-]*[\\w/-]
 urxvt.urgentOnBell:     true
-!urxvt*visualBell:        true
-
-! ! Zenburn
-! *background:  #3f3f3f
-! *foreground:  #dcdccc
-! ! black + red
-! !*color0:     #3f3f3f
-! *color0:      #1E2320
-! *color1:      #705050
-! ! green + yellow
-! *color2:      #60b48a
-! *color3:      #dfaf8f
-! ! blue + purple
-! *color4:      #506070
-! *color5:      #dc8cc3
-! ! cyan + white
-! *color6:      #8cd0d3
-! *color7:      #dcdccc
-! ! bright-black + bright-red
-! *color8:      #709080
-! *color9:      #dca3a3
-! ! bright-green + bright-yellow
-! *color10:     #c3bf9f
-! *color11:     #f0dfaf
-! ! bright-blue + bright-purple
-! *color12:     #94bff3
-! *color13:     #ec93d3
-! ! bright-cyan + bright-white
-! *color14:     #93e0e3
-! *color15:     #ffffff
+urxvt*cursorBlink: false 
 
 ! Colorful and sharp
 *background:  #222222
@@ -93,7 +62,6 @@ urxvt.urgentOnBell:     true
 *color15:     #ffffff
 
 cursorColor:    #ffcc00
-urxvt*cursorBlink: false 
 
 xpdf*enableFreetype:    yes
 xpdf*antialias:    yes

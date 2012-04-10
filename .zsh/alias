@@ -27,6 +27,7 @@ alias vi=vim
 alias wh="when ci --past=0 --future=3"
 alias cdc="cd; clear"
 alias s="screen"
+alias sshfast="ssh -Cc arcfour"
 
 # navigation/filesystem commands
 alias cp="cp -v"

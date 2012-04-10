@@ -16,6 +16,7 @@ Bundle 'tpope/vim-repeat'
 Bundle 'ervandew/supertab'
 Bundle 'tpope/vim-surround'
 Bundle 'taglist.vim'
+Bundle 'ivanov/vim-ipython'
 Bundle 'git://vim-latex.git.sourceforge.net/gitroot/vim-latex/vim-latex'
 
 filetype plugin indent on " required

@@ -57,8 +57,8 @@ import XMonad.Layout.ThreeColumns
 
 main = do
     host <- runProcessWithInput "hostname" [] []
-    spawn $ rightBar host
-    din <- spawnPipe $ myStatusBar host
+    spawn $ rightBar (init host)
+    din <- spawnPipe $ myStatusBar (init host)
     
     xmonad $ withUrgencyHook NoUrgencyHook $ defaultConfig {
       -- simple stuff

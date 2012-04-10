@@ -13,3 +13,5 @@ if [[ "$TERM" != screen* ]]; then
     export TERM=rxvt
 	screen -RR
 fi
+
+stty stop undef # Unmap ctrl-s

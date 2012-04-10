@@ -46,9 +46,6 @@ alias mplayer="mplayer -idx"
 alias wget="wget --timeout 10"
 alias R="R --no-save"
 
-# random stuff
-alias outside="weatherget"
-
 # auto-open
 alias -s {jpg,JPG,jpeg,JPEG,png,PNG,gif,GIF}="mirage"
 alias -s {mpg,mpeg,avi,ogm,wmv,m4v,mp4,mov}="mplayer -idx"

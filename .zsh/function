@@ -1,17 +1,4 @@
 #!/bin/zsh
-#
-# list contents of directory on every "cd"
-function chpwd
-{
-	integer ls_lines="$(ls -C | wc -l)"
-	if [[ $ls_lines -eq 0 ]]; then
-		echo No files found: Empty Directory 
-	else
-		ls -h --color
-		# echo "\e[1;32m --[\e[1;34m Dirs:\e[1;36m `ls -l | egrep \"^drw\" | wc -l` \e[1;32m|\e[1;35m Files: \e[1;31m`ls -l | egrep -v \"^drw\" | grep -v total | wc -l` \e[1;32m]--"
-	fi
-}
-
 # reload zshrc
 function src()
 {

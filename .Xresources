@@ -1,23 +1,21 @@
 xft.dpi:    96
-xft.hintstyle: hintslight
-xft.autohinting: 1
-xft.antialias: 1
-xft.rgba: none
 Xcursor*theme:    Vanilla-DMZ-AA
 Xcursor.size: 22
 
 ! urxvt.font: -*-terminus-*-*-*-*-12-*-*-*-*-*-*-*
 ! urxvt.font: xft:liberation mono:size=10:antialias=true:hinting=false
 ! urxvt.font: xft:consolas:size=9:antialias=true:hinting=true
-urxvt.font: xft:inconsolata-g:size=8:antialias=true:hinting=true
+urxvt.font: xft:Inconsolata-Regular:size=12:antialias=true:hinting=true
+emacs.font: Inconsolata-g-9
 
 urxvt*geometry:         80x25
 urxvt*saveLines:        8192 
 urxvt*scrollBar:        false
 urxvt*scrollstyle:      plain ! options: rxvt, plain, next or xterm. plain
 urxvt*scrollBar_right:  true
-urxvt*background:       #222222
-urxvt*borderColor:      #222222
+! urxvt*background:       #222222
+! urxvt*foreground:       #EBEBFF
+! urxvt*borderColor:      #222222
 urxvt*loginShell:       true
 urxvt*transparent:	    false 
 urxvt*cutchars:         "`\"()*',<>[]{|}"
@@ -34,36 +32,6 @@ urxvt.urgentOnBell:     true
 urxvt*cursorBlink: false 
 ! Change this hotkey because it conflicts with vim-ipython
 URxvt.searchable-scrollback: CM-s
-
-! Colorful and sharp
-*background:  #222222
-*foreground:  #EBEBFF
-! black + red
-*color0:      #000000
-*color1:      #e01010
-! green + yellow
-*color2:      #00AA00
-*color3:      #f0f000
-! blue + purple
-*color4:      #204a87
-*color5:      #A020F0
-! cyan + white
-*color6:      #5B5BC7
-*color7:      #fefefe
-! bright-black + bright-red
-*color8:      #6a6a6a
-*color9:      #FF5555
-! bright-green + bright-yellow
-*color10:     #90EE90
-*color11:     #f0f02f
-! bright-blue + bright-purple
-*color12:     #7B9Bf7
-*color13:     #e628ba
-! bright-cyan + bright-white
-*color14:     #5DcDFB
-*color15:     #ffffff
-
-cursorColor:    #ffcc00
 
 xpdf*enableFreetype:    yes
 xpdf*antialias:    yes

@@ -7,5 +7,6 @@ elif [ $HOSTNAME == "lappy" ]; then
     feh --bg-scale ~/pics/wallpapers/cloudy_day_1920x1200.jpg
 fi
 
+xrdb -merge .Xthemes/colorful-sharp
 urxvtd -q -o -f
 xset r rate 250 30 &

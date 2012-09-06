@@ -1,0 +1,29 @@
+! Colorful and sharp
+ *background:  #222222
+ *foreground:  #EBEBFF
+! black + red
+*color0:      #000000
+*color1:      #e01010
+! green + yellow
+*color2:      #00AA00
+*color3:      #f0f000
+! blue + purple
+*color4:      #204a87
+*color5:      #A020F0
+! cyan + white
+*color6:      #5B5BC7
+*color7:      #fefefe
+! bright-black + bright-red
+*color8:      #6a6a6a
+*color9:      #FF5555
+! bright-green + bright-yellow
+*color10:     #90EE90
+*color11:     #f0f02f
+! bright-blue + bright-purple
+*color12:     #7B9Bf7
+*color13:     #e628ba
+! bright-cyan + bright-white
+*color14:     #5DcDFB
+*color15:     #ffffff
+
+cursorColor:    #ffcc00

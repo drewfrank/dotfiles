@@ -1,0 +1,2 @@
+Load one of these themes by calling
+   xrdb -merge <file>

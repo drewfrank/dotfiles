@@ -28,10 +28,11 @@ alias wh="when ci --past=0 --future=3"
 alias cdc="cd; clear"
 alias s="screen"
 alias sshfast="ssh -Cc arcfour"
+alias gg="git commit -am 'lazy commit.'"
 
 # navigation/filesystem commands
 alias cp="cp -v"
-alias rm="rm -v"
+alias rm="rm -vI"
 alias ls="ls -hF --color=auto --hide='*.pyc'"
 alias mv="mv -v --backup=existing"
 alias mmv="noglob zmv -W"

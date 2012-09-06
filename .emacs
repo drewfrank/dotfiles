@@ -94,8 +94,10 @@
 ;; define a leader key for use in custom mappings.
 (let ((leader ","))
 (define-key evil-normal-state-map (concat leader "cc") 'comment-region)
+(define-key evil-insert-state-map (concat leader "cc") 'comment-region)
 (define-key evil-visual-state-map (concat leader "cc") 'comment-region)
 (define-key evil-normal-state-map (concat leader "cu") 'uncomment-region)
+(define-key evil-insert-state-map (concat leader "cu") 'uncomment-region)
 (define-key evil-visual-state-map (concat leader "cu") 'uncomment-region)
 )
 

@@ -53,7 +53,8 @@
 
 ;; Basic behavior
 (savehist-mode 1)
-(setq make-backup-files nil)        ; get rid of clutter~
+(setq make-backup-files nil)        ; get rid of clutter~.
+(setq auto-save-default nil)        ; get rid of #clutter#.
 (setq vc-follow-symlinks t)         ; just edit the file.
 
 ;; Visual settings
@@ -94,10 +95,8 @@
 ;; define a leader key for use in custom mappings.
 (let ((leader ","))
 (define-key evil-normal-state-map (concat leader "cc") 'comment-region)
-(define-key evil-insert-state-map (concat leader "cc") 'comment-region)
 (define-key evil-visual-state-map (concat leader "cc") 'comment-region)
 (define-key evil-normal-state-map (concat leader "cu") 'uncomment-region)
-(define-key evil-insert-state-map (concat leader "cu") 'uncomment-region)
 (define-key evil-visual-state-map (concat leader "cu") 'uncomment-region)
 )
 

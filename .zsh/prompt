@@ -49,7 +49,7 @@ function precmd {
 	elif [ -d "$PWD"/_darcs ]; then
 		PR_REPO_RESULT=''
 		PR_REPO=":darcs"
-	elif [ -d "$PWD"/.git ]; then
+	elif git rev-parse &> /dev/null; then
 		PR_REPO_RESULT=''
 		PR_REPO=":git"
 	elif [ -d "$PWD"/CVS ]; then

@@ -10,7 +10,7 @@ export PYTHONSTARTUP=~/.pystartup
 # virtualenv stuff
 export WORKON_HOME=$HOME/.virtualenvs
 source /usr/bin/virtualenvwrapper.sh
-export VIRTUALENV_USE_DISTRIBUTE=1
+export VIRTUALENV_DISTRIBUTE=1
 
 export ILOG_LICENSE_FILE=/home/drew/ILOG/ilm/access.ilm
 

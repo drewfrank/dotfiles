@@ -40,6 +40,7 @@
     evil-surround             ; cs"'
     evil-numbers              ; evil-numbers/{inc,dec}-at-pt
     magit                     ; git integration
+    org-mode                  ; latest and greatest, please! (git HEAD)
     zencoding-mode            ; http://www.emacswiki.org/emacs/ZenCoding
   ))
 ;; Not sure what this does, but it seems important.
@@ -153,3 +154,10 @@
 	)
 	("all" :components ("all-org" "all-static"))
        ))
+;; org-babel settings
+(org-babel-do-load-languages
+    'org-babel-load-languages '(
+        (python . t)
+        (R . t)
+        (sh . t)
+))

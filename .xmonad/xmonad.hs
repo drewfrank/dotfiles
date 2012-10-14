@@ -44,6 +44,7 @@ import XMonad.Layout.LayoutCombinators
 import XMonad.Layout.SimplestFloat
 import XMonad.Layout.IM
 import XMonad.Layout.Grid
+import XMonad.Layout.ResizableTile
 
 import XMonad.Util.Dzen
 import XMonad.Layout.NoBorders
@@ -91,7 +92,7 @@ myFocusFollowsMouse = True
 
 ------------------------------------------------------------------------
 -- Layouts:
-myLayout = windowNavigation $ avoidStruts (smartBorders (dwmStyle shrinkText defaultTheme (three ||| im ||| Full ||| simplestFloat)))
+myLayout = windowNavigation $ avoidStruts (smartBorders (dwmStyle shrinkText defaultTheme (tall ||| three ||| im ||| Full ||| simplestFloat)))
   where
      -- default tiling algorithm partitions the screen into two panes
      tiled   = Tall nmaster delta ratio
@@ -103,6 +104,7 @@ myLayout = windowNavigation $ avoidStruts (smartBorders (dwmStyle shrinkText def
      delta   = 5%100
      three = ThreeColMid 1 (3/100) (1/3)
      im = withIM (1%7) (Title "Buddy List") Grid
+     tall = ResizableTall 1 (5/100) (1/2) []
  
 ------------------------------------------------------------------------
 -- Window rules:
@@ -153,9 +155,11 @@ myKeys conf@(XConfig {XMonad.modMask = modMask}) = M.fromList $
     , ((modMask,                xK_Tab  ), sendMessage NextLayout)
     , ((modMask .|. shiftMask,  xK_n    ), setLayout $ XMonad.layoutHook conf)      -- reset layout
     , ((modMask,                xK_n    ), refresh)                                 -- reset sizes
-    , ((mod1Mask,               xK_b    ), sendMessage ToggleStruts)
+    , ((modMask,               xK_b    ), sendMessage ToggleStruts)
     , ((modMask .|. controlMask, xK_h    ), sendMessage Shrink)
     , ((modMask .|. controlMask, xK_l    ), sendMessage Expand)
+    , ((modMask .|. controlMask, xK_j    ), sendMessage MirrorShrink)
+    , ((modMask .|. controlMask, xK_k    ), sendMessage MirrorExpand)
     , ((modMask,                xK_t    ), withFocused $ windows . W.sink)          -- re-tile window
     , ((modMask,                xK_comma), sendMessage (IncMasterN 1))
     , ((modMask,                xK_period), sendMessage (IncMasterN (-1)))

@@ -33,3 +33,5 @@
     r = !git l -20
     st = status
     type = cat-file -t
+[credential]
+	helper = cache --timeout=3600

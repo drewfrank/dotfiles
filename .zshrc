@@ -11,7 +11,7 @@
 
 if [[ "$TERM" != screen* ]]; then
     export TERM=rxvt
-    (tmux ls | grep -vq attached && tmux at) || tmux
+    ((tmux ls | grep -vq attached && tmux at) || tmux) && exit
 fi
 
 stty stop undef # Unmap ctrl-s

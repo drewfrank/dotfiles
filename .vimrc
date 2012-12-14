@@ -105,6 +105,7 @@ let g:tex_flavor='latex'
 let g:Tex_ViewRule_pdf='evince'
 let g:Tex_DefaultTargetFormat='pdf'
 let g:Tex_MultipleCompileFormats='pdf,dvi'
+let g:Tex_UseMakefile=0
 
 " EnhancedCommentify options
 let g:EnhCommentifyPretty='Yes'

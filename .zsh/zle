@@ -209,6 +209,8 @@ zle self-insert ;  zle vi-backward-char; zle vi-match-bracket; zle -R ; sleep 0.
 
 bindkey -M viins '^r' history-incremental-search-backward
 bindkey -M vicmd '^r' history-incremental-search-backward
+bindkey -M viins '^s' history-incremental-search-forward
+bindkey -M vicmd '^s' history-incremental-search-forward
 
 bindkey "\e[A" up-line-or-search
 bindkey "\e[B" down-line-or-search

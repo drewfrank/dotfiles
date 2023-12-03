@@ -17,7 +17,7 @@ for file in $(ls -A); do
             echo "Creating backup: $HOME/$file => $HOME/$file.bak"
             mv $HOME/$file $HOME/$file.bak
         fi
-        ln -sfT $PWD/$file $HOME/$file
+        ln -sf $PWD/$file $HOME
         echo "INSTALLED ~/$file"
     fi
 done

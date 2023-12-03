@@ -1,27 +1,25 @@
 set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-Bundle 'gmarik/vundle'
+Plugin 'VundleVim/Vundle.vim'
 " List bundles to install below. Format:
 "   Github: 'user/reponame'
 "   Vimscripts: 'scriptname'
 "   Git repo: 'git://blah'
-Bundle 'AutoTag'
-Bundle 'mileszs/ack.vim'
-Bundle 'noahfrederick/Hemisu'
-Bundle 'JuliaLang/julia-vim'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'michaeljsmith/vim-indent-object'
-Bundle 'tpope/vim-repeat'
-Bundle 'ervandew/supertab'
-Bundle 'tpope/vim-surround'
-Bundle 'taglist.vim'
-Bundle 'chriskempson/vim-tomorrow-theme'
-Bundle 'ivanov/vim-ipython'
-Bundle 'git://vim-latex.git.sourceforge.net/gitroot/vim-latex/vim-latex'
+Plugin 'EnhCommentify.vim'
+Plugin 'noahfrederick/Hemisu'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'michaeljsmith/vim-indent-object'
+Plugin 'tpope/vim-repeat'
+Plugin 'ervandew/supertab'
+Plugin 'tpope/vim-surround'
+Plugin 'chriskempson/vim-tomorrow-theme'
+Plugin 'ivanov/vim-ipython'
+Plugin 'junegunn/fzf.vim'
 
+call vundle#end() " required
 filetype plugin indent on " required
 
 " allow backspacing over everything in insert mode
@@ -91,6 +89,9 @@ set foldlevelstart=99
 set foldignore=
 autocmd FileType tex setlocal iskeyword=@,48-57,_,-,:,192-255 " For easy autocompletion of label names.
 autocmd FileType r setlocal ts=2 sts=2 sw=2 " Use 2-space indents like DuBois.
+autocmd FileType cpp setlocal ts=2 sts=2 sw=2
+autocmd FileType js setlocal ts=2 sts=2 sw=2
+autocmd FileType html setlocal ts=2 sts=2 sw=2
 
 " handy keybindings
 inoremap jj <ESC>
@@ -98,6 +99,8 @@ nnoremap <leader><space> :noh<cr>
 nnoremap <space> za
 vnoremap <space> zf
 nnoremap <silent> <leader>s :TlistToggle<cr>
+nnoremap <leader> ff :FormatCode<cr>
+nnoremap <leader> fl :FormatLines<cr>
 
 " latex-suite options
 set grepprg=grep\ -nH\ $*

@@ -14,6 +14,7 @@
     b = branch
     br = branch
     ci = commit
+    cm = log --format=%B -n 1
     co = checkout
     dc = diff --cached
     di = diff
@@ -31,7 +32,12 @@
     pullff = pull --ff-only
     ra = !git r --all
     r = !git l -20
+    rb = "!f() { \
+        if [ \"$1\" = \"\" ]; then NUM=10; else NUM=\"$1\"; fi; \
+        git reflog | grep checkout | cut -d \" \" -f 6 | awk '!x[$0]++' | head -$NUM; }; f"
     st = status
     type = cat-file -t
 [credential]
 	helper = cache --timeout=3600
+[push]
+    default = current

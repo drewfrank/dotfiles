@@ -6,9 +6,9 @@
 
 # bash prompt styles
 #PS1='[\[\e[37m\]\u\[\e[31m\]@\[\e[37m\]\h\[\e[0m\]:\[\e[33m\]\w\[\e[0m\]] \$ '
-#PS1="\[\e[36;1m\][\[\e[34;1m\]\w\[\e[36;1m\]]: \[\e[0m\]"
+PS1="\[\e[36;1m\][\[\e[34;1m\]\w\[\e[36;1m\]]: \[\e[0m\]"
 #PS1="\[\e[0m\][\[\e[0m\]\w\[\e[0m\]]: \[\e[0m\]"
-PS1="\[\e[0m\]\u \e[31m\]\w\[\e[0m\] "
+#PS1="\[\e[0m\]\u \e[31m\]\w\[\e[0m\] "
 #export PS1=" ${BLUE}[${NC} \u ${BLUE}]${NC} "
 #export PS2="       ${NC}  :${BLUE} ] ${NC}"
 
@@ -62,7 +62,7 @@ fi
 
 # general aliases
 alias cp="cp -i"          # confirm before overwriting something
-alias ls='ls --color=auto -F' # colourized list
+alias ls='ls -G -F' # colourized list
 alias ll='ls -lh'         # long list
 alias la='ls -a'          # list all
 alias f='find | grep'     # quick search
@@ -89,7 +89,6 @@ alias yremove='sudo yaourt -Rs'
 alias screenshot='cd ~/screenshots && scrot -cd3 desktop-%d-%m_%H:%M:%S.png -q 85 && cd'
 alias cp="cp -v"
 alias grep="grep --color=auto -n"
-alias ls="ls -hF -a --color=auto"
 alias mv="mv -v"
 alias rm="rm -v"
 alias halt="sudo shutdown -h now"

@@ -40,7 +40,7 @@ if [ -e /usr/local/opt/fzf/shell/completion.zsh ]; then
 fi
 
 if [[ "$TERM" != screen* ]]; then
-    export TERM=rxvt
+    export TERM=xterm-256color
     ((tmux ls | grep -vq attached && tmux at) || tmux)
 fi
 
